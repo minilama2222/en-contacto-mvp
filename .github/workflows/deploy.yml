@@ -44,5 +44,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./astro/dist
-          publish_branch: output
+          publish_branch: gh-pages
           force_orphan: true
