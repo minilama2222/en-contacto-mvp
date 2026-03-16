@@ -1,12 +1,14 @@
-import fs from 'fs';
+// Ruta base del contenido scrapeado
+// En Astro build, process.cwd() es el directorio astro/, necesitamos subir un nivel
 import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Ruta base del contenido scrapeado (ruta absoluta)
-const CONTENT_BASE = '/root/.openclaw/workspace/projects/en-contacto-mvp/scraper/content';
+// Ir un nivel arriba de astro/ para llegar a la raíz del proyecto
+const PROJECT_ROOT = path.join(process.cwd(), '..');
+const CONTENT_BASE = path.join(PROJECT_ROOT, 'scraper', 'content');
 
 // Sanitizar slug para URL válida
 function sanitizeSlug(slug) {
