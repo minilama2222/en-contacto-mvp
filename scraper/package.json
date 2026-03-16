@@ -1,0 +1,17 @@
+{
+  "name": "en-contacto-scraper",
+  "version": "1.0.0",
+  "description": "Scraper recursivo para en-contacto.net",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "scrape": "node index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0",
+    "turndown": "^7.1.2",
+    "slugify": "^1.6.6",
+    "axios": "^1.6.0",
+    "fs-extra": "^11.2.0"
+  }
+}

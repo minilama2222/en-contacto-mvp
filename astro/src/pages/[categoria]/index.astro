@@ -1,0 +1,118 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getContent } from '../../utils/content';
+
+export function getStaticPaths() {
+  const categories = ['analisis-transaccional', 'formacion', 'psicoterapia', 'certificacion', 'blog', 'gabinete', 'inicio'];
+  
+  return categories.map(category => ({
+    params: { categoria: category },
+    props: { category }
+  }));
+}
+
+const { category } = Astro.props;
+const pages = getContent(category);
+
+const categoryTitles = {
+  'analisis-transaccional': 'Análisis Transaccional',
+  'formacion': 'Formación',
+  'psicoterapia': 'Psicoterapia',
+  'certificacion': 'Certificación',
+  'blog': 'Blog',
+  'gabinete': 'Gabinete',
+  'inicio': 'Inicio'
+};
+
+const title = categoryTitles[category] || category;
+---
+
+<Base title={title} description={`Contenido sobre ${title}`}>
+  <section class="category-page">
+    <header class="page-header">
+      <h1>{title}</h1>
+      <p>{pages.length} página(s) disponible(s)</p>
+    </header>
+    
+    <div class="pages-list">
+      {pages.map(page => (
+        <article class="page-item">
+          <h2>
+            <a href={`/${category}/${page.slug}`}>{page.title || page.slug}</a>
+          </h2>
+          {page.description && <p class="description">{page.description}</p>}
+          <a href={`/${category}/${page.slug}`} class="read-more">Leer más →</a>
+        </article>
+      ))}
+    </div>
+    
+    {pages.length === 0 && (
+      <p class="empty">No hay contenido en esta sección todavía.</p>
+    )}
+  </section>
+</Base>
+
+<style>
+  .category-page {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .page-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .page-header h1 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .page-header p {
+    color: #666;
+    margin: 0;
+  }
+  
+  .pages-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .page-item {
+    padding: 1.5rem;
+    background: var(--color-white);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .page-item h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.25rem;
+  }
+  
+  .page-item h2 a {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+  
+  .page-item h2 a:hover {
+    text-decoration: underline;
+  }
+  
+  .description {
+    color: #666;
+    margin: 0 0 1rem;
+  }
+  
+  .read-more {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  
+  .empty {
+    text-align: center;
+    color: #666;
+    padding: 2rem;
+  }
+</style>
