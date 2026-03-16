@@ -67,16 +67,16 @@ function cleanText(text) {
   return text?.replace(/\s+/g, ' ').trim() || '';
 }
 
-async function extractLinks(page) {
-  return await page.evaluate(() => {
+async function extractLinks(page, baseUrl) {
+  return await page.evaluate((baseUrl) => {
     const links = [];
     document.querySelectorAll('a[href]').forEach(a => {
       const href = a.getAttribute('href');
-      if (href && (href.startsWith('/') || href.startsWith(BASE_URL))) {
-        let fullUrl = href.startsWith('http') ? href : BASE_URL + href;
+      if (href && (href.startsWith('/') || href.startsWith(baseUrl))) {
+        let fullUrl = href.startsWith('http') ? href : baseUrl + href;
         // Quitar query params y hash
         fullUrl = fullUrl.split('?')[0].split('#')[0];
-        if (fullUrl.startsWith(BASE_URL) && !fullUrl.includes('#') && !fullUrl.includes('?')) {
+        if (fullUrl.startsWith(baseUrl) && !fullUrl.includes('#') && !fullUrl.includes('?')) {
           links.push(fullUrl);
         }
       }
@@ -132,7 +132,7 @@ async function extractPageContent(page, url) {
     });
     
     // Extraer nuevos enlaces
-    const links = await extractLinks(page);
+    const links = await extractLinks(page, BASE_URL);
     
     const markdown = htmlToMarkdown(content);
     

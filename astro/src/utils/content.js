@@ -2,10 +2,11 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-// Ruta base del contenido scrapeado
-const CONTENT_BASE = path.join(__dirname, '..', '..', 'scraper', 'content');
+// Ruta base del contenido scrapeado (ruta absoluta)
+const CONTENT_BASE = '/root/.openclaw/workspace/projects/en-contacto-mvp/scraper/content';
 
 // Sanitizar slug para URL válida
 function sanitizeSlug(slug) {

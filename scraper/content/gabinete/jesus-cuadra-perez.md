@@ -1,0 +1,61 @@
+---
+title: "Quién soy | En-Contacto"
+slug: "jesus-cuadra-perez"
+category: "gabinete"
+
+
+
+---
+
+# Quién soy
+
+Profesionalmente soy Psicólogo Especialista en Psicología Clínica (colegiado A-282), Analista Transaccional Psicoterapeuta (ITAA-EATA), Analista Transaccional Docente y Supervisor (ITAA-EATA), Psicoterapeuta Integrativo Docente y Supervisor (IIPA) Psicoterapeuta Familiar (AATF-FEATF-FEAP).
+
+Comencé como profesor de Física y Química ya que primero obtuve la Licenciatura en Ciencias Físicas en la Universidad de Zaragoza en 1970.  
+La pasión por la educación y el amor a los alumnos me estimuló a dedicar mi atención a la acción tutorial y a la pedagogía en especial la Pedagogía de la Liberación y la de la Escuela Activa.
+
+Interesado por la renovación pedagógica, de manera casual conocí el Análisis Transaccional en 1972 (“Yo estoy bien – Tú estás bien” de Thomas Harris) y poco después decidí que en su día sería Analista Transaccional.
+
+En 1979, en Barcelona, realicé el Curso 101 con Jorge Oller. Me entrené profesionalmente en Análisis Transaccional con Corinne Gledhill, con Jorge Oller, con Marge Reddington y con muchos otros Analistas Transaccionales Docentes y Supervisores.
+
+En 1985 me certificó como Analista Transaccional Clínico el Comité de Certificaciones de la ITAA – EATA.
+
+En 1986 obtuve la Licenciatura en Filosofía y Ciencias de la Educación Sección Psicología por la Universidad de Barcelona. Mi especialidad fue la Psicología Clínica.
+
+Completé mi entrenamiento profesional formándome en Terapia Familiar Sistémica con el psicólogo Fernando Carrasco y obtuve la certificación como Terapeuta Familiar por la Asociación Aragonesa de Terapia Familiar y por la Federación Española de Asociaciones de Terapia Familiar , estoy respaldado como Psicoterapeuta por la Federación Española de Psicoterapeutas.
+
+Aprendí Programación Neuro Lingüística hasta el nivel “Practicioner” con el Psicólogo Pedro Antonio Sanz del Centro I.T.A.C.A. de Barcelona.
+
+Desde 1996 me estuve entrenando como Analista Transaccional Docente y Supervisor respaldado por la EATA con Carlo Moiso como supervisor principal.
+
+En agosto de 2003, en Oaxaca (México) me certificó como Analista Transaccional Docente y Supervisor el Comité de Certificaciones de la ITAA – EATA.
+
+Desde el año 2001 hasta el año 2013 estuve formándome y entrenandome en Psicoterapia Integrativa con Richard Erskine en los Seminarios impartidos por él que organiza la Asociación de Análisis Transaccional ATA en colaboración con el Instituto de Psicoterapia Integrativa de New York y la Asociación Internacional de Psicoterapia Integrativa (IIPA).
+
+En julio de 2007 me acreditó la Asociación Internacional de Psicoterapia Integrativa (IIPA) como Psicoterapeuta Integrativo Docente y Supervisor en su Congreso celebrado en Roma.
+
+En diciembre de 2007 obtuve el Título Oficial de Psicólogo Especialista en Psicología Clínica.
+
+  
+**A qué me dedico actualmente:**
+
+Inauguré el Gabinete de Análisis Transaccional en el año 1987 en Zaragoza, es el Centro en el que he dirigido y realizado la mayor parte de mis actividades profesionales. En el Gabinete mi actividad principal ha sido la Psicoterapia individual, en grupo, de pareja y de familia. También en él me he dedicado, hasta diciembre de 2020, a la formación y la supervisión de profesionales de la salud, de los servicios sociales y de la educación, en especial a los profesionales de la psicoterapia.
+
+Actualmente, desde enero de 2021, ofrezco entrenamiento en Análisis Transaccional Integrativo **ONLINE** para profesionales que se dedican a la relación de ayuda, en especial para psicólogos, médicos y personal del área de Salud Mental, y también para profesores, padres y personas cuya actividad requiere habilidades de comunicación con otras personas.
+
+He colaborado y colaboro con otros Centros e Instituciones
+
+  
+**Colaboraciones:**
+
+*   Como psicólogo, formador y supervisor de Orientadores en el Teléfono de la Esperanza de Aragón (976 23 28 28) desde 1988.
+*   Con el Centro de Entrenamiento de Psicoterapeutas ERIC BERNE de Barcelona como Profesor de su Programa de Formación desde 2008.
+*   Con el Instituto Aragonés de Servicios Sociales (IASS) en la formación de los animadores de los Grupos Socioterapéuticos para Cuidadores, en su programa Cuidarte desde 2005.
+*   Con la Asociación ATA de Análisis Transaccional en el Seminario de Reciclaje y Actualización en Análisis Transaccional (SARAT) y en el Seminario de Integración Profesional del Análisis Transaccional (SIPAT) para profesionales.
+
+He colaborado con:
+
+*   El Instituto Alecés de Lugo desde 1998 hasta 2003 en la formación y supervisión de profesionales en Análisis Transaccional en Psicoterapia.
+*   El Instituto Galene de Psicoterapia de Madrid desde 1999 hasta 2016 como profesor en el Máster de Psicoterapia Humanista Integrativa que organiza.
+*   El Sindicato UGT Aragón en la formación de los Delegados Sindicales desde 2009.
+*   En ATADES Huesca en la formación sobre liderazgo para directivos y mandos intermedios.
