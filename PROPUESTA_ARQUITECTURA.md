@@ -21,15 +21,16 @@
 
 ## Propuesta de Nueva Arquitectura
 
-### 📌 Secciones propuestas: 5
+### 📌 Secciones propuestas: 6
 
 | # | Sección | Descripción |
 |---|---------|-------------|
 | 1 | **Inicio** | Landing page con información general |
 | 2 | **Análisis Transaccional** | Qué es AT, conceptos, filosofía |
-| 3 | **Servicios** | Psicoterapia + Formación (unificadas) |
-| 4 | **Blog** | Artículos y recursos |
-| 5 | **Contacto** | Info de contacto + legal |
+| 3 | **Psicoterapia** | Servicios terapéuticos |
+| 4 | **Formación** | Cursos y certificación |
+| 5 | **Blog** | Artículos y recursos |
+| 6 | **Contacto** | Info de contacto + legal |
 
 ---
 
@@ -43,17 +44,16 @@
 │   ├── Terapia de Redirección
 │   ├── Bibliografía
 │   └── Organizaciones
-├── Servicios
-│   ├── Psicoterapia
-│   │   ├── Proceso terapéutico
-│   │   ├── Reglas de terapia
-│   │   ├── Área de clientes
-│   │   └── Grupos
-│   └── Formación
-│       ├── Curso 101
-│       ├── Curso Fundamentos
-│       ├── Seminarios (SARAT/SIPAT)
-│       └── Supervisión
+├── Psicoterapia
+│   ├── Proceso terapéutico
+│   ├── Reglas de terapia
+│   ├── Área de clientes
+│   └── Grupos
+├── Formación
+│   ├── Curso 101
+│   ├── Curso Fundamentos
+│   ├── Seminarios (SARAT/SIPAT)
+│   └── Certificación
 ├── Blog
 │   └── Artículos
 └── Contacto
@@ -81,7 +81,7 @@ Mover desde `analisis-transaccional`:
 - articulos.md (o mover a Blog)
 - obras-de-eric-berne.md
 
-### 3. Servicios → Psicoterapia
+### 3. Psicoterapia
 Mover desde `psicoterapia`:
 - psicoterapia.md
 - el-proceso-terapeutico.md
@@ -90,7 +90,7 @@ Mover desde `psicoterapia`:
 - preparar-el-trabajo-terapeutico.md
 - grupo-de-psicoterapia-y-crecimiento-personal.md
 
-### 4. Servicios → Formación
+### 4. Formación
 Mover desde `formacion`:
 - entrenamiento-de-profesionales.md
 - el-curso-101-de-at.md
