@@ -4,12 +4,12 @@ slug: "seminario-de-supervision-y-formacion"
 category: "formacion"
 
 
-featuredImage: "https://www.en-contacto.net/wp-content/uploads/SIPAT-2020.png"
+featuredImage: "wp-content/uploads/SIPAT-2020.png"
 ---
 
 # Seminario de Supervisión e Integración del Análisis Transaccional (SIPAT)
 
-![](https://www.en-contacto.net/wp-content/uploads/SIPAT-2020.png)
+![](wp-content/uploads/SIPAT-2020.png)
 
 ## **(Online)**
 
@@ -28,7 +28,7 @@ Las horas de participación serán certificadas por **Jesús Cuadra Pérez.
 ](http://www.eatanews.org/)– La Certificación como Psicoterapeuta Integrativo de la [IIPA  
 ](http://www.integrativeassociation.com/index_spanish.html)– La Acreditación como Psicoterapeuta Transaccional de la [ATA](http://www.atainfo.org/index.htm).
 
-(Leer la página [Conocer, aprender, entrenarse y certificarse en Análisis Transaccional](https://www.en-contacto.net/el-gabinete-de-at/entrenamiento-de-profesionales/Conocer,%20aprender,%20entrenarse%20y%20certificarse%20en%20An%C3%A1lisis%20Transaccional) y en especial la sección [La certificación como Analista Transaccional](https://www.en-contacto.net/certificacon-como-analista-transaccional/)   para entender el proceso de certificación en lo relativo a acreditarse y certificarse como Analista Transaccional.)
+(Leer la página [Conocer, aprender, entrenarse y certificarse en Análisis Transaccional](el-gabinete-de-at/entrenamiento-de-profesionales/Conocer,%20aprender,%20entrenarse%20y%20certificarse%20en%20An%C3%A1lisis%20Transaccional) y en especial la sección [La certificación como Analista Transaccional](certificacon-como-analista-transaccional/)   para entender el proceso de certificación en lo relativo a acreditarse y certificarse como Analista Transaccional.)
 
 *   Cada año se retoma en septiembre hasta final de julio del año siguiente.
     *   Próximas sesiones del Seminarios:

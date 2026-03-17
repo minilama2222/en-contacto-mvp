@@ -7,4 +7,4 @@ category: "general"
 
 ---
 
-![](https://www.en-contacto.net/wp-content/uploads/Captura-de-pantalla-2013-06-23-a-las-00.15.14.png)
+![](wp-content/uploads/Captura-de-pantalla-2013-06-23-a-las-00.15.14.png)

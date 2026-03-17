@@ -11,7 +11,7 @@ category: "certificacion"
 
 Por Jesús Cuadra Pérez
 
-Hay muchas maneras de conocer el Análisis Transaccional. La mayoría de las personas lo conocen mediante la lectura de los [libros de Análisis Transaccional](https://www.en-contacto.net/que-es-el-at/bibliografia-basica/) que hay en el mercado, otros mediante [algún artículo](https://www.en-contacto.net/que-es-el-at/articulos/) que hace referencia al Análisis Transaccional en revistas de divulgación o de información en el ámbito de su profesión. Sea como sea, conocer el Análisis Transaccional no suele dejar indiferente a casi nadie y las personas quieren saber más y profundizar más, con lo que continúan aprendiendo Análisis Transaccional mediante más lecturas o apuntándose a otros cursos, reuniones, seminarios, etc. para completar su conocimiento.
+Hay muchas maneras de conocer el Análisis Transaccional. La mayoría de las personas lo conocen mediante la lectura de los [libros de Análisis Transaccional](que-es-el-at/bibliografia-basica/) que hay en el mercado, otros mediante [algún artículo](que-es-el-at/articulos/) que hace referencia al Análisis Transaccional en revistas de divulgación o de información en el ámbito de su profesión. Sea como sea, conocer el Análisis Transaccional no suele dejar indiferente a casi nadie y las personas quieren saber más y profundizar más, con lo que continúan aprendiendo Análisis Transaccional mediante más lecturas o apuntándose a otros cursos, reuniones, seminarios, etc. para completar su conocimiento.
 
 Comienza entonces lo que podríamos llamar el aprendizaje del Análisis Transaccional. El aprendizaje del Análisis Transaccional es parte de la formación que algunas Entidades dan a sus miembros o a su personal (Teléfonos de la Esperanza, Empresas, algunos cuerpos policiales, equipos de vendedores, etc.) y que imparte alguna persona, profesional de la psicología o no, que lo conoce y le ha parecido una teoría atractiva, sencilla de transmitir y útil para que la gente comprenda el comportamiento y las relaciones humanas. Raras veces forma parte de los programas de enseñanza de las Universidades ni en las Facultades de Psicología ni en otras Facultades o Escuelas Universitarias, salvo su inclusión como referencia como una de las técnicas de psicoterapia junto con otras, en la dinámica de grupos, y en la Gestión de Recursos Humanos u Organización de Empresas, y esto si el profesor de estas asignaturas lo conoce o le tiene simpatía.
 
@@ -41,7 +41,7 @@ El entrenamiento o formación previo recibido de personas no certificadas como d
 
 Para evitar frustraciones y expectativas ilusorias es conveniente tener en cuenta estas ideas en especial cuando una persona desea acreditarse y certificarse como Analista Transaccional.
 
-**Descárgate este artículo pinchando este enlace: [CONOCER, APRENDER ENTRENARSE Y ACREDITARSE EN AT](https://www.en-contacto.net/wp-content/uploads/CONOCER-APRENDER-ENTRENARSE-Y-ACREDITARSE-EN-AT.doc.pdf)**[  
-](https://www.en-contacto.net/wp-content/uploads/CONOCER-APRENDER-ENTRENARSE-Y-ACREDITARSE-EN-AT.pdf)
+**Descárgate este artículo pinchando este enlace: [CONOCER, APRENDER ENTRENARSE Y ACREDITARSE EN AT](wp-content/uploads/CONOCER-APRENDER-ENTRENARSE-Y-ACREDITARSE-EN-AT.doc.pdf)**[  
+](wp-content/uploads/CONOCER-APRENDER-ENTRENARSE-Y-ACREDITARSE-EN-AT.pdf)
 
 _Todos los textos de este sitio web están con la licencia Creative Commons Reconocimiento-NoComercial-CompartirIgual 3.0 España._ [_Ver licencia_](http://creativecommons.org/licenses/by-nc-sa/3.0/es/) _© 2017_

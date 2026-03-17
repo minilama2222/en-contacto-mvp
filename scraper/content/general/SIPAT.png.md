@@ -7,4 +7,4 @@ category: "general"
 
 ---
 
-![](https://www.en-contacto.net/wp-content/uploads/SIPAT.png)
+![](wp-content/uploads/SIPAT.png)

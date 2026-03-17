@@ -7,4 +7,4 @@ category: "general"
 
 ---
 
-![](https://www.en-contacto.net/wp-content/uploads/FOTO-JESUS.png)
+![](wp-content/uploads/FOTO-JESUS.png)

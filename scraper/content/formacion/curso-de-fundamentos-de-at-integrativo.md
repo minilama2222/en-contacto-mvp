@@ -4,12 +4,12 @@ slug: "curso-de-fundamentos-de-at-integrativo"
 category: "formacion"
 
 
-featuredImage: "https://www.en-contacto.net/wp-content/uploads/SARAT-2020.png"
+featuredImage: "wp-content/uploads/SARAT-2020.png"
 ---
 
 # Seminario de Actualización y Reciclaje en Análisis Transaccional (SARAT)
 
-![](https://www.en-contacto.net/wp-content/uploads/SARAT-2020.png)
+![](wp-content/uploads/SARAT-2020.png)
 
 Este Seminario ofrece una oportunidad de adquirir Formación Avanzada en Análisis Transaccional.
 
@@ -19,7 +19,7 @@ Es también una oportunidad de formar una _Comunidad de la Practica_ donde compa
 
 Este Seminario se realiza en colaboración con la Asociación de Análisis Transaccional ATA.
 
-Puede consultarse los contenidos en este enlace: [Contenidos](https://www.en-contacto.net/el-gabinete-de-at/entrenamiento-de-profesionales/contenidos-del-programa/)
+Puede consultarse los contenidos en este enlace: [Contenidos](el-gabinete-de-at/entrenamiento-de-profesionales/contenidos-del-programa/)
 
 *   Este es un seminario **ONLINE**.
 *   **DE FRECUENCIA QUINCENAL.** Los martes de 9’30 a 11 de la mañana.
@@ -34,7 +34,7 @@ Los participantes pueden solicitar la acreditación de las horas de Formación A
 
 Para más detalles de este seminario seguir este enlace: [El SARAT EN LA WEB DE LA ATA](http://atainfo.org/actividades-formativas-de-la-ata/seminario-de-actualizacion-y-reciclaje-en-analisis-transaccional/)
 
-(Es importante leer la página [Conocer, aprender, entrenarse y certificarse en Análisis Transaccional](https://www.en-contacto.net/certificacon-como-analista-transaccional/conocer-aprender-entrenarse-y-certificarse-en-analisis-transaccional/) y en especial la sección [La certificación como Analista Transaccional](https://www.en-contacto.net/certificacon-como-analista-transaccional/)   para entender bien el proceso de certificación y evitar frustraciones y expectativas ilusorias en especial en lo relativo a acreditarse y certificarse como Analista Transaccional.)
+(Es importante leer la página [Conocer, aprender, entrenarse y certificarse en Análisis Transaccional](certificacon-como-analista-transaccional/conocer-aprender-entrenarse-y-certificarse-en-analisis-transaccional/) y en especial la sección [La certificación como Analista Transaccional](certificacon-como-analista-transaccional/)   para entender bien el proceso de certificación y evitar frustraciones y expectativas ilusorias en especial en lo relativo a acreditarse y certificarse como Analista Transaccional.)
 
 El Seminario será dirigido por **Jesús Cuadra Pérez  
 **

@@ -26,15 +26,15 @@ Sus conceptos se expresan por medio de un vocabulario sencillo y original buscan
 
 **CONTENIDOS DE ESTA SECCIÓN**
 
-1.  [Presentación](https://www.en-contacto.net/que-es-el-at/presentacion-at/)
+1.  [Presentación](que-es-el-at/presentacion-at/)
     *   Los orígenes
     *   Filosofía y principios del Análisis Transaccional
     *   Las metas del Análisis Transaccional
     *   Principios de la aplicación del Análisis Transaccional
     *   Los campos de aplicación
     *   Que ofrece el Análisis Transaccional
-2.  [Bibliografía básica en castellano](https://www.en-contacto.net/que-es-el-at/bibliografia-basica/)
-3.  [Algunos conceptos básicos](https://www.en-contacto.net/que-es-el-at/conceptos-at/)
+2.  [Bibliografía básica en castellano](que-es-el-at/bibliografia-basica/)
+3.  [Algunos conceptos básicos](que-es-el-at/conceptos-at/)
     *   Análisis Estructural
     *   El Análisis Transaccional
     *   Las hambres psicológicas básicas
@@ -42,11 +42,11 @@ Sus conceptos se expresan por medio de un vocabulario sencillo y original buscan
     *   El guión de vida y la identidad
     *   Los rackets y los juegos psicológicos
     *   Referencias bibliográficas
-4.  [Las organizaciones de Análisis Transaccional en el mundo, en Europa y en España](https://www.en-contacto.net/que-es-el-at/organizaciones-at/)
+4.  [Las organizaciones de Análisis Transaccional en el mundo, en Europa y en España](que-es-el-at/organizaciones-at/)
     *   Internacional
     *   Europa
     *   España
-5.  [Obras de Eric Berne](https://www.en-contacto.net/que-es-el-at/obras-de-eric-berne/)
+5.  [Obras de Eric Berne](que-es-el-at/obras-de-eric-berne/)
 6.  Premios Conmemorativos Eric Berne hasta la fecha
 
-Descargar esta información en este archivo: [QUÉ ES EL ANÁLISIS TRANSACCIONAL](https://www.en-contacto.net/wp-content/uploads/RESUMEN-DE-CONCEPTOS-DE-AT.pdf)
+Descargar esta información en este archivo: [QUÉ ES EL ANÁLISIS TRANSACCIONAL](wp-content/uploads/RESUMEN-DE-CONCEPTOS-DE-AT.pdf)

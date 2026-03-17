@@ -4,12 +4,12 @@ slug: "el-curso-101-de-at"
 category: "formacion"
 
 
-featuredImage: "https://www.en-contacto.net/wp-content/uploads/C-101-1-1024x844.png"
+featuredImage: "wp-content/uploads/C-101-1-1024x844.png"
 ---
 
 # El Curso 101 de AT
 
-![](https://www.en-contacto.net/wp-content/uploads/C-101-1-1024x844.png)
+![](wp-content/uploads/C-101-1-1024x844.png)
 
 **¿QUÉ ES UN «CURSO 101» DE ANÁLISIS TRANSACCIONAL?**  
 El “101 de AT” es el término introducido por Eric Berne para designar una introducción a la teoría y los métodos básicos del Análisis Transaccional. Los números “101” se usan típicamente en los Estados Unidos para los cursos universitarios introductorios que proporcionan una revisión de conjunto de un tema.
@@ -20,7 +20,7 @@ El curso 101 de AT es un taller oficialmente reconocido por la ITAA (la EATA y l
 El propósito del curso 101 de AT es proporcionar una información coherente y precisa de los conceptos del AT.  
 Para que un curso 101 sea calificado como Curso 101 de AT reconocido por la EATA se precisa que reúna los siguientes requisitos:
 
-*   Los contenidos del curso deben ser los especificados por el [Programa Oficial del Curso 101](https://www.en-contacto.net/wp-content/uploads/PROGRAMA-DEL-CURSO-101-2014-JULIO.pdf) de AT de la EATA.
+*   Los contenidos del curso deben ser los especificados por el [Programa Oficial del Curso 101](wp-content/uploads/PROGRAMA-DEL-CURSO-101-2014-JULIO.pdf) de AT de la EATA.
 *   El curso debe tener una duración de al menos 12 horas.
 *   El instructor debe de ser oficialmente reconocido para impartir un curso 101 de AT, para ello ha de ser:
     *   Un Analista Transaccional Docente TSTA, o
@@ -46,7 +46,7 @@ Los participantes recibirán un _dossier_ con los Apuntes detallados del Curso y
 **El curso se realizará:** A través de la aplicación Zoom que puede descargarse gratuitamente en [https://zoom.us/](https://zoom.us/)  
 **Las personas inscritas** recibirán el enlace por correo electrónico o por WhatsApp para poder conectarse.
 
-**VER EL [PROGRAMA OFICIAL DEL CURSO 101](https://www.en-contacto.net/wp-content/uploads/PROGRAMA-DEL-CURSO-101-2014-JULIO.pdf "Contenidos del 101. Julio 2014")**
+**VER EL [PROGRAMA OFICIAL DEL CURSO 101](wp-content/uploads/PROGRAMA-DEL-CURSO-101-2014-JULIO.pdf "Contenidos del 101. Julio 2014")**
 
 **EL EXAMEN ESCRITO DEL 101 DE AT**
 
@@ -55,6 +55,6 @@ Como he dicho al comienzo, para afiliarse a la ITAA (EATA y ATA) como Miembro Re
 En 1977 se introdujo el examen escrito del 101 de AT como una alternativa a hacer un curso o taller para responder al creciente número de personas en todo el mundo que querían seguir un programa de auto estudio o que tenían un adecuado conocimiento de los principios básicos del AT, pero no podían asistir a un curso 101 de AT impartido por un profesor oficial.  
 Los exámenes escritos son calificados por un profesor cualificado y toda persona que lo supera con una nota de 65 o más puntos aprueba el examen, recibe del Certificado del 101 de AT y, a partir de ahí, está habilitado para afiliarse como Miembro Regular de la ITAA (EATA y ATA) y para firmar un contrato de entrenamiento del Consejo de Entrenamiento y Certificación (T&CC de la ITAA). Algunos formadores (sobre todo supervisores) pueden requerir de sus clientes en formación que hagan el examen escrito además del curso 101 de AT antes de firmar un _contrato de entrenamiento_ en AT.
 
-En este enlace puedes encontrar las Preguntas del Examen del 101 de Análisis Transaccional y la forma en que será corregido y puntuado: [EL EXAMEN ESCRITO DEL 101 DE ANÁLISIS TRANSACCIONAL](https://www.en-contacto.net/wp-content/uploads/EL-EXAMEN-ESCRITO-DEL-101-DE-ANÁLISIS-TRANSACCIONAL.pdf)
+En este enlace puedes encontrar las Preguntas del Examen del 101 de Análisis Transaccional y la forma en que será corregido y puntuado: [EL EXAMEN ESCRITO DEL 101 DE ANÁLISIS TRANSACCIONAL](wp-content/uploads/EL-EXAMEN-ESCRITO-DEL-101-DE-ANÁLISIS-TRANSACCIONAL.pdf)
 
-[**BIBLIOGRAFÍA BÁSICA DE ANÁLISIS TRANSACCIONAL EN ESPAÑOL**](https://www.en-contacto.net/que-es-el-at/bibliografia-basica/)
+[**BIBLIOGRAFÍA BÁSICA DE ANÁLISIS TRANSACCIONAL EN ESPAÑOL**](que-es-el-at/bibliografia-basica/)

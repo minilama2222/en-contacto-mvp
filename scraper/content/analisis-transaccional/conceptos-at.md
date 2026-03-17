@@ -4,7 +4,7 @@ slug: "conceptos-at"
 category: "analisis-transaccional"
 
 
-featuredImage: "https://www.en-contacto.net/wp-content/uploads/Figura-1.png"
+featuredImage: "wp-content/uploads/Figura-1.png"
 ---
 
 # Conceptos de AT
@@ -29,7 +29,7 @@ El Análisis Transaccional proporciona…
 El modelo que Eric Berne elaboró a partir de las observaciones clínicas, en especial en los grupos de terapia, para comprender la estructura y la dinámica de la personalidad, es el modelo de los _Estados del Yo_. Un Estado del Yo es “un sistema de emociones y pensamientos acompañado de un conjunto afín de patrones de conducta” (Berne, 1964, 1987).  
 Berne observó que los diferentes estados del yo que usamos las personas pueden clasificarse en tres grandes grupos que tienen algo en común y que los distingue entre sí. Los tres grupos de estados del yo los denominó _Padre, Adulto y Niño_ (cuando se refieren a estados del yo, Padre, Adulto y Niño se escriben con mayúsculas), y se les representa mediante un diagrama como el de la Figura nº 1.
 
-[![](https://www.en-contacto.net/wp-content/uploads/Figura-1.png "Figura 1")](https://www.en-contacto.net/wp-content/uploads/Figura-1.png)
+[![](wp-content/uploads/Figura-1.png "Figura 1")](wp-content/uploads/Figura-1.png)
 
 Los estados del yo se consideran manifestaciones fenomenológicas de tres partes distintas de la estructura de nuestro _Aparato Psíquico_. Estas partes son lo que Berne llamaba Órganos Psíquicos, y suponía que son tres: La Extereopsique, la Neopsique y la Arqueopsique (Berne, 1961, 1976). Se manifiestan, tanto internamente (pensamientos y sentimientos) como externamente (lo que hablamos y lo que hacemos), de manera distinta.
 
@@ -107,7 +107,7 @@ _3\. El Adulto Interno._ Se experimenta como una potencialidad orientada a capta
 — “Lo que conviene hacer es…”  
 — “Lo que quiero hacer es…”
 
-[![](https://www.en-contacto.net/wp-content/uploads/Figura-2-147x300.png "Figura 2")](https://www.en-contacto.net/wp-content/uploads/Figura-2.png)
+[![](wp-content/uploads/Figura-2-147x300.png "Figura 2")](wp-content/uploads/Figura-2.png)
 
 Los tres órganos psíquicos se influyen mutuamente (Figura nº 2). A veces tenemos conciencia de ello (conciencia Adulta) y percibimos esa influencia como un auténtico _diálogo interno_ entre diferentes partes de uno mismo. Otras veces el diálogo es inconsciente (sin conciencia Adulta), especialmente cuando es entre la Arqueopsique (Niño) y la Extereopsique (Padre), pero el resultado o el efecto de ese diálogo puede evidenciarse en forma de pensamientos, sentimientos, sensaciones, estados de ánimo o conductas a veces poco conscientes o incontroladas, hasta que el diálogo interno es aclarado y el Adulto puede ganar control sobre él.
 
@@ -140,7 +140,7 @@ Toda comunicación es una sucesión de transacciones, un intercambio tras otro. 
 
 Las Figuras nº 3 y nº 4 muestran ejemplos de transacciones sencillas. Las flechas indican el estado del yo que emite el estímulo y el estado del yo al que se dirige, así como los estados del yo origen y destino de las respuestas.
 
-[![](https://www.en-contacto.net/wp-content/uploads/Figura-3-150x150.png "Figura 3")](https://www.en-contacto.net/wp-content/uploads/Figura-3.png)[![](https://www.en-contacto.net/wp-content/uploads/Figura-4-150x150.png "Figura 4")](https://www.en-contacto.net/wp-content/uploads/Figura-4.png)Las transacciones más sencillas son _complementarias: son aquellas en las que la respuesta regresa del estado del yo que recibió el estímulo al que lo emitió; es decir, la respuesta es la esperada, sigue el orden natural de las relaciones humanas._ Una transacción complementaria involucra un estado del yo en cada persona. Las transacciones tienden a producirse en cadena, de modo que cada reacción es a su vez un estímulo que puede tener o no una respuesta.
+[![](wp-content/uploads/Figura-3-150x150.png "Figura 3")](wp-content/uploads/Figura-3.png)[![](wp-content/uploads/Figura-4-150x150.png "Figura 4")](wp-content/uploads/Figura-4.png)Las transacciones más sencillas son _complementarias: son aquellas en las que la respuesta regresa del estado del yo que recibió el estímulo al que lo emitió; es decir, la respuesta es la esperada, sigue el orden natural de las relaciones humanas._ Una transacción complementaria involucra un estado del yo en cada persona. Las transacciones tienden a producirse en cadena, de modo que cada reacción es a su vez un estímulo que puede tener o no una respuesta.
 
 **La Primera regla de la comunicación**, según Berne, es que
 
@@ -155,9 +155,9 @@ La Segunda regla de la comunicación es la inversa de la anterior, y dice:
 > “la comunicación queda rota cuando ocurre una transacción cruzada”.
 
 _Una transacción es cruzada cuando la respuesta no vuelve del estado del yo que recibió el estímulo al que lo emitió._  
-[![](https://www.en-contacto.net/wp-content/uploads/Figura-5-150x150.png "Figura 5")](https://www.en-contacto.net/wp-content/uploads/Figura-5.png)  
+[![](wp-content/uploads/Figura-5-150x150.png "Figura 5")](wp-content/uploads/Figura-5.png)  
 Berne decía que la transacción cruzada más común es la representada en la Figura nº 5. Clínicamente es la clásica reacción de transferencia, y decía que es la que causa, y siempre ha causado, las mayores dificultades sociales en el mundo, en la familia, en el amor, en la amistad o en el trabajo.  
-[![](https://www.en-contacto.net/wp-content/uploads/Figura-6-150x150.png "Figura 6")](https://www.en-contacto.net/wp-content/uploads/Figura-6.png)  
+[![](wp-content/uploads/Figura-6-150x150.png "Figura 6")](wp-content/uploads/Figura-6.png)  
 Otro tipo frecuente de transacción cruzada es la de la Figura nº 6, que representa un intercambio entre un esposo y su esposa. Él dice (A-A): “¿Sabes dónde están mis gafas?”; ella responde (P-N): “¿Por qué no las guardas en su sitio? Ya no eres un niño”. Es la clásica reacción de contratransferencia.
 
 **2.2.3. Transacciones ulteriores. Tercera regla de la comunicación**
@@ -174,7 +174,7 @@ El nivel psicológico es Padre-Niño, Niño-Padre. Si pusiéramos palabras a los
 — Marido: “¡Estás siempre desordenando mis cosas!”  
 — Esposa: “¡Siempre estás criticándome injustamente!”  
 El diagrama transaccional se muestra en la figura nº 7.  
-[![](https://www.en-contacto.net/wp-content/uploads/Figura-7-150x150.png "Figura 7")](https://www.en-contacto.net/wp-content/uploads/Figura-7.png)
+[![](wp-content/uploads/Figura-7-150x150.png "Figura 7")](wp-content/uploads/Figura-7.png)
 
 Este tipo de transacción se denomina transacción dúplex. Tercera regla de la comunicación:
 

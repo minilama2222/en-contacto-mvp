@@ -9,7 +9,7 @@ category: "general"
 
 # La parábola del jardín
 
-[Deja un comentario](https://www.en-contacto.net/la-parabola-del-jardin/#respond)
+[Deja un comentario](la-parabola-del-jardin/#respond)
 
 Una vez una venerable maestra llamada Marge Reddingtón, me enseñó una parábola terapéutica que hoy te cuento adaptada.
 
@@ -35,4 +35,4 @@ Una vez una venerable maestra llamada Marge Reddingtón, me enseñó una parábo
 > 
 > Pero «Al final de los tiempos a cada uno se le pedirá cuentas de cómo está cuidado su propio jardín».
 
-Esta entrada fue publicada en [Blog](https://www.en-contacto.net/category/blog/) el [12/09/2011](https://www.en-contacto.net/la-parabola-del-jardin/ "16:10") por [Jesús Cuadra](https://www.en-contacto.net/author/admin/ "Ver todas las entradas de Jesús Cuadra").
+Esta entrada fue publicada en [Blog](category/blog/) el [12/09/2011](la-parabola-del-jardin/ "16:10") por [Jesús Cuadra](author/admin/ "Ver todas las entradas de Jesús Cuadra").

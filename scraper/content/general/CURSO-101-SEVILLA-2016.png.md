@@ -7,4 +7,4 @@ category: "general"
 
 ---
 
-![](https://www.en-contacto.net/wp-content/uploads/CURSO-101-SEVILLA-2016.png)
+![](wp-content/uploads/CURSO-101-SEVILLA-2016.png)

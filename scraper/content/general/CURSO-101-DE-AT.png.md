@@ -7,4 +7,4 @@ category: "general"
 
 ---
 
-![](https://www.en-contacto.net/wp-content/uploads/CURSO-101-DE-AT.png)
+![](wp-content/uploads/CURSO-101-DE-AT.png)

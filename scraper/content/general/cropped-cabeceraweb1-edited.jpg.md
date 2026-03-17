@@ -7,4 +7,4 @@ category: "general"
 
 ---
 
-![](https://www.en-contacto.net/wp-content/uploads/cropped-cabeceraweb1-edited.jpg)
+![](wp-content/uploads/cropped-cabeceraweb1-edited.jpg)

@@ -7,4 +7,4 @@ category: "general"
 
 ---
 
-![](https://www.en-contacto.net/wp-content/uploads/LOGOATA-Y-GABINETE.png)
+![](wp-content/uploads/LOGOATA-Y-GABINETE.png)

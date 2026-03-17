@@ -4,13 +4,13 @@ slug: "sipat"
 category: "general"
 
 
-featuredImage: "https://www.en-contacto.net/wp-content/uploads/SIPAT.png"
+featuredImage: "wp-content/uploads/SIPAT.png"
 ---
 
 # SIPAT
 
-Publicado el 21/07/2017 a [480 × 479](https://www.en-contacto.net/wp-content/uploads/SIPAT.png "Enlace a la imagen completa") en [SIPAT](https://www.en-contacto.net/sipat/ "Ir a SIPAT").
+Publicado el 21/07/2017 a [480 × 479](wp-content/uploads/SIPAT.png "Enlace a la imagen completa") en [SIPAT](sipat/ "Ir a SIPAT").
 
-[← Anterior](https://www.en-contacto.net/sarat-2/) [Siguiente →](https://www.en-contacto.net/cropped-cropped-cabeceraweb1-png/)
+[← Anterior](sarat-2/) [Siguiente →](cropped-cropped-cabeceraweb1-png/)
 
-[![](https://www.en-contacto.net/wp-content/uploads/SIPAT.png)](https://www.en-contacto.net/cropped-cropped-cabeceraweb1-png/ "SIPAT")
+[![](wp-content/uploads/SIPAT.png)](cropped-cropped-cabeceraweb1-png/ "SIPAT")

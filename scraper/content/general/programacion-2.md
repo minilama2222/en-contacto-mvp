@@ -4,13 +4,13 @@ slug: "programacion-2"
 category: "general"
 
 
-featuredImage: "https://www.en-contacto.net/wp-content/uploads/PROGRAMACION-1.png"
+featuredImage: "wp-content/uploads/PROGRAMACION-1.png"
 ---
 
 # PROGRAMACION
 
-Publicado el 21/07/2017 a [1437 × 355](https://www.en-contacto.net/wp-content/uploads/PROGRAMACION-1.png "Enlace a la imagen completa") en [PROGRAMACION](https://www.en-contacto.net/programacion-2/ "Ir a PROGRAMACION").
+Publicado el 21/07/2017 a [1437 × 355](wp-content/uploads/PROGRAMACION-1.png "Enlace a la imagen completa") en [PROGRAMACION](programacion-2/ "Ir a PROGRAMACION").
 
-[← Anterior](https://www.en-contacto.net/logos/) [Siguiente →](https://www.en-contacto.net/sarat-2/)
+[← Anterior](logos/) [Siguiente →](sarat-2/)
 
-[![](https://www.en-contacto.net/wp-content/uploads/PROGRAMACION-1.png)](https://www.en-contacto.net/sarat-2/ "PROGRAMACION")
+[![](wp-content/uploads/PROGRAMACION-1.png)](sarat-2/ "PROGRAMACION")

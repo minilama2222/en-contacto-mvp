@@ -4,13 +4,13 @@ slug: "imagen-1"
 category: "general"
 
 
-featuredImage: "https://www.en-contacto.net/wp-content/uploads/Imagen-1.png"
+featuredImage: "wp-content/uploads/Imagen-1.png"
 ---
 
 # Imagen 1
 
-Publicado el 21/07/2017 a [790 × 415](https://www.en-contacto.net/wp-content/uploads/Imagen-1.png "Enlace a la imagen completa") en [Imagen 1](https://www.en-contacto.net/imagen-1/ "Ir a Imagen 1").
+Publicado el 21/07/2017 a [790 × 415](wp-content/uploads/Imagen-1.png "Enlace a la imagen completa") en [Imagen 1](imagen-1/ "Ir a Imagen 1").
 
-[← Anterior](https://www.en-contacto.net/c-101-de-sevilla-2017/) [Siguiente →](https://www.en-contacto.net/programacion/)
+[← Anterior](c-101-de-sevilla-2017/) [Siguiente →](programacion/)
 
-[![](https://www.en-contacto.net/wp-content/uploads/Imagen-1.png)](https://www.en-contacto.net/programacion/ "Imagen 1")
+[![](wp-content/uploads/Imagen-1.png)](programacion/ "Imagen 1")
