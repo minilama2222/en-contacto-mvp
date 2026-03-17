@@ -37,6 +37,13 @@ function decodeFilename(filename) {
   }
 }
 
+// Limpiar título de la página
+function cleanTitle(title) {
+  if (!title) return '';
+  // Quitar el sufijo " | En-Contacto" o similar
+  return title.replace(/\s*\|\s*En-Contacto\s*$/i, '').trim();
+}
+
 // Leer contenido de una categoría
 export function getContent(category) {
   const contentPath = path.join(CONTENT_BASE, category);
@@ -76,6 +83,7 @@ export function getContent(category) {
     return {
       rawSlug,
       slug,
+      title: cleanTitle(frontmatter.title),
       ...frontmatter,
       body
     };
@@ -135,6 +143,7 @@ export function getPage(category, slug) {
   }
   
   return {
+    title: cleanTitle(frontmatter.title),
     ...frontmatter,
     body
   };
