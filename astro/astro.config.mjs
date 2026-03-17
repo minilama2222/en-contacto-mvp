@@ -5,7 +5,7 @@ export default defineConfig({
   base: '/',
   output: 'static',
   build: {
-    format: 'file'
+    format: 'directory'
   },
   vite: {
     build: {
