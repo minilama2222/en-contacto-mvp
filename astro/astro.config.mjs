@@ -1,8 +1,8 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://minilama2222.github.io',
-  base: '/en-contacto-mvp',
+  site: 'https://en-contacto-mvp.vercel.app',
+  base: '/',
   output: 'static',
   build: {
     format: 'file'
