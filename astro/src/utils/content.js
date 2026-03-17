@@ -37,6 +37,13 @@ function decodeFilename(filename) {
   }
 }
 
+// Limpiar cuerpo del markdown (quitar primer H1 que duplica el título)
+function cleanBody(body) {
+  if (!body) return '';
+  // Quitar el primer encabezado que sea H1
+  return body.replace(/^#\s+.+$/m, '').trim();
+}
+
 // Limpiar título de la página
 function cleanTitle(title) {
   if (!title) return '';
@@ -85,7 +92,7 @@ export function getContent(category) {
       slug,
       title: cleanTitle(frontmatter.title),
       ...frontmatter,
-      body
+      body: cleanBody(body)
     };
   });
 }
@@ -145,6 +152,6 @@ export function getPage(category, slug) {
   return {
     title: cleanTitle(frontmatter.title),
     ...frontmatter,
-    body
+    body: cleanBody(body)
   };
 }
