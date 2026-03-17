@@ -120,8 +120,8 @@ const htmlContent = marked.parse(page.body || '');
   }
   
   /* Ocultar el primer H1 si duplica el título de la página */
-  .page-content :global(h1:first-child) {
-    display: none;
+  .page-content :global(h1:first-of-type) {
+    display: none !important;
   }
   
   .page-content :global(em) {
