@@ -15,5 +15,5 @@ Requiere tiempo para que se establezca la relación terapéutica y la confianza 
 
 En esta sección los pacientes en psicoterapia pueden encontrar orientaciones útiles para comprender el proceso de psicoterapia con Análisis Transaccional y algunas de las reglas y procedimientos corrientes que se ponen en marcha en la relación terapéutica.
 
-*   Algunas [reglas de la terapia (especialmente en grupo]\(/psicoterapia/area-de-clientes/reglas-de-la-terapia/)).
-*   Una pauta de reflexión para [preparar el trabajo terapéutico]\(/psicoterapia/area-de-clientes/preparar-el-trabajo-terapeutico/) explorando las creencias autolimitadoras o de guión.
+*   Algunas [reglas de la terapia (especialmente en grupo](/psicoterapia/area-de-clientes/reglas-de-la-terapia/)).
+*   Una pauta de reflexión para [preparar el trabajo terapéutico](/psicoterapia/area-de-clientes/preparar-el-trabajo-terapeutico/) explorando las creencias autolimitadoras o de guión.

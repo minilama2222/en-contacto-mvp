@@ -57,4 +57,4 @@ Los exámenes escritos son calificados por un profesor cualificado y toda person
 
 En este enlace puedes encontrar las Preguntas del Examen del 101 de Análisis Transaccional y la forma en que será corregido y puntuado: [EL EXAMEN ESCRITO DEL 101 DE ANÁLISIS TRANSACCIONAL](wp-content/uploads/EL-EXAMEN-ESCRITO-DEL-101-DE-ANÁLISIS-TRANSACCIONAL.pdf)
 
-[**BIBLIOGRAFÍA BÁSICA DE ANÁLISIS TRANSACCIONAL EN ESPAÑOL**]\(/analisis-transaccional/bibliografia-basica/)
+[**BIBLIOGRAFÍA BÁSICA DE ANÁLISIS TRANSACCIONAL EN ESPAÑOL**](/analisis-transaccional/bibliografia-basica/)

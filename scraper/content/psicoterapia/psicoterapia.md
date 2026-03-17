@@ -31,6 +31,6 @@ En la actualidad son los siguientes:
 *   Sesiones de grupo: 50 €
 
 Ver también las secciones siguientes:  
-[Grupo de Psicoterapia y Crecimiento Personal]\(/psicoterapia/grupo-de-psicoterapia-y-crecimiento-personal/)  
-[El proceso terapéutico.]\(/psicoterapia/el-proceso-terapeutico/)  
-[Área de clientes.]\(/psicoterapia/area-de-clientes/)
+[Grupo de Psicoterapia y Crecimiento Personal](/psicoterapia/grupo-de-psicoterapia-y-crecimiento-personal/)  
+[El proceso terapéutico.](/psicoterapia/el-proceso-terapeutico/)  
+[Área de clientes.](/psicoterapia/area-de-clientes/)

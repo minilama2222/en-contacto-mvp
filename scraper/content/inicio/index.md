@@ -25,14 +25,14 @@ Este es un Centro profesional de Psicología Clínica dedicado desde 1987 princi
 
 En esta sección puedes encontrar información sobre:
 
-*   [Quién soy]\(/contacto/) como profesional y mi trayectoria.
-*   La [Psicoterapia]\(/psicoterapia/) con una [Area dedicada a los clientes]\(/psicoterapia/area-de-clientes/) de Psicoterapia.
+*   [Quién soy](/contacto/) como profesional y mi trayectoria.
+*   La [Psicoterapia](/psicoterapia/) con una [Area dedicada a los clientes](/psicoterapia/area-de-clientes/) de Psicoterapia.
 
 Te invito a navegar por los menús de la cabecera de la página donde puedes encontrar bastante información sobre:  
 
-*   [Qué es el Análisis Transaccional]\(/analisis-transaccional/) 
-*   La [Formación en Análisis Transaccional Integrativo]\(/formacion/) con diversos Materiales útiles para el desarrollo de los programas de entrenamiento en Análisis Transaccional y de la Psicoterapia Integrativa.
-*   [La Certificación en AT]\(/formacion/) bajo las normas de entrenamiento de la Asociación Europea de Análisis Transaccional (EATA) y de la Asociación Internacional de Análisis Transaccional (ITAA)  
+*   [Qué es el Análisis Transaccional](/analisis-transaccional/) 
+*   La [Formación en Análisis Transaccional Integrativo](/formacion/) con diversos Materiales útiles para el desarrollo de los programas de entrenamiento en Análisis Transaccional y de la Psicoterapia Integrativa.
+*   [La Certificación en AT](/formacion/) bajo las normas de entrenamiento de la Asociación Europea de Análisis Transaccional (EATA) y de la Asociación Internacional de Análisis Transaccional (ITAA)  
     
 *   Y sobre otros asuntos relacionados con el Gabinete de Análisis Transaccional y los temas afines al mismo.
 
