@@ -10,7 +10,7 @@ category: "formacion"
 # Contenidos del Programa de Entrenamiento
 
 **CURSO 101**  
-[(Ver una descripción completa del Curso 101 de AT)](el-gabinete-de-at/entrenamiento-de-profesionales/el-curso-101-de-at/)
+[(Ver una descripción completa del Curso 101 de AT)]\(/el-gabinete-de-at/entrenamiento-de-profesionales/el-curso-101-de-at/)
 
 **PROGRAMA DE FORMACIÓN EN ANÁLISIS TRANSACCIONAL INTEGRATIVO  
 **
@@ -21,7 +21,7 @@ Por lo tanto pueden ser revisados en un grupo concreto y son una guía de conten
 
 ## **FUNDAMENTOS DE ANÁLISIS TRANSACCIONAL INTEGRATIVO** 
 
-Estos son los contenidos del [Seminario de Actualización y Reciclaje en Análisis Transaccional (SARAT)](el-gabinete-de-at/entrenamiento-de-profesionales/curso-de-fundamentos-de-at-integrativo/):
+Estos son los contenidos del [Seminario de Actualización y Reciclaje en Análisis Transaccional (SARAT)]\(/el-gabinete-de-at/entrenamiento-de-profesionales/curso-de-fundamentos-de-at-integrativo/):
 
 _Unidad 1. – El marco conceptual y filosófico del Análisis Transaccional y de la Psicoterapia Integrativa._  
 Los principios humanistas del Análisis Transaccional y de la Psicoterapia Integrativa. La Autonomía y la Integración. Los principios metodológicos. Contratos: profesional, terapéutico, de proceso, triangular y psicológico.  

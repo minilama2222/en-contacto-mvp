@@ -25,14 +25,14 @@ Este es un Centro profesional de Psicología Clínica dedicado desde 1987 princi
 
 En esta sección puedes encontrar información sobre:
 
-*   [Quién soy](el-gabinete-de-at/jesus-cuadra-perez/) como profesional y mi trayectoria.
-*   La [Psicoterapia](el-gabinete-de-at/psicoterapia/) con una [Area dedicada a los clientes](el-gabinete-de-at/psicoterapia/area-de-clientes/) de Psicoterapia.
+*   [Quién soy]\(/el-gabinete-de-at/jesus-cuadra-perez/) como profesional y mi trayectoria.
+*   La [Psicoterapia]\(/el-gabinete-de-at/psicoterapia/) con una [Area dedicada a los clientes]\(/el-gabinete-de-at/psicoterapia/area-de-clientes/) de Psicoterapia.
 
 Te invito a navegar por los menús de la cabecera de la página donde puedes encontrar bastante información sobre:  
 
-*   [Qué es el Análisis Transaccional](que-es-el-at/) 
-*   La [Formación en Análisis Transaccional Integrativo](el-gabinete-de-at/entrenamiento-de-profesionales/) con diversos Materiales útiles para el desarrollo de los programas de entrenamiento en Análisis Transaccional y de la Psicoterapia Integrativa.
-*   [La Certificación en AT](certificacon-como-analista-transaccional/) bajo las normas de entrenamiento de la Asociación Europea de Análisis Transaccional (EATA) y de la Asociación Internacional de Análisis Transaccional (ITAA)  
+*   [Qué es el Análisis Transaccional]\(/que-es-el-at/) 
+*   La [Formación en Análisis Transaccional Integrativo]\(/el-gabinete-de-at/entrenamiento-de-profesionales/) con diversos Materiales útiles para el desarrollo de los programas de entrenamiento en Análisis Transaccional y de la Psicoterapia Integrativa.
+*   [La Certificación en AT]\(/certificacon-como-analista-transaccional/) bajo las normas de entrenamiento de la Asociación Europea de Análisis Transaccional (EATA) y de la Asociación Internacional de Análisis Transaccional (ITAA)  
     
 *   Y sobre otros asuntos relacionados con el Gabinete de Análisis Transaccional y los temas afines al mismo.
 

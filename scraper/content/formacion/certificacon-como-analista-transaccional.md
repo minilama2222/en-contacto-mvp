@@ -25,13 +25,13 @@ Algunas personas pueden acudir también a entrenarse en Análisis Transaccional 
 Por todo lo anterior conviene leer las secciones de este apartado para evitar confusiones al respecto.  
 CONTENIDOS:
 
-0\. [Conocer, aprender, entrenarse y certificarse en Análisis Transaccional](certificacon-como-analista-transaccional/conocer-aprender-entrenarse-y-certificarse-en-analisis-transaccional/)  
-1. [Requisitos para el entrenamiento](certificacon-como-analista-transaccional/proceso-de-certificacion/)  
-2\. [Base contractual](certificacon-como-analista-transaccional/proceso-de-certificacion/)  
-3. [Los cuatro campos de aplicación](certificacon-como-analista-transaccional/los-cuatro-campos-de-aplicacion-del-at/?preview_id=907&preview_nonce=60270322bf&preview=true "Los cuatro campos de especialización ")  
-4\. [Duración del entrenamiento](certificacon-como-analista-transaccional/duracion-y-curriculum-del-entrenamiento-en-at/)  
-5\. [Currículum](certificacon-como-analista-transaccional/duracion-y-curriculum-del-entrenamiento-en-at/)  
-6\. [Relación entrenador – persona en formación](certificacon-como-analista-transaccional/la-relacion-entrenador-entrenado/)  
-7\. [Los exámenes para Analista Transaccional Certificado](certificacon-como-analista-transaccional/examenes-y-requisitos-para-el-examen-de-cta/)  
-8\. [Requisitos para el examen como Analista Transaccional Certificado](certificacon-como-analista-transaccional/examenes-y-requisitos-para-el-examen-de-cta/)  
-9\. [Descripción de los requisitos](certificacon-como-analista-transaccional/descripcion-de-los-requisitos-para-certificarse-en-at/)
+0\. [Conocer, aprender, entrenarse y certificarse en Análisis Transaccional]\(/certificacon-como-analista-transaccional/conocer-aprender-entrenarse-y-certificarse-en-analisis-transaccional/)  
+1. [Requisitos para el entrenamiento]\(/certificacon-como-analista-transaccional/proceso-de-certificacion/)  
+2\. [Base contractual]\(/certificacon-como-analista-transaccional/proceso-de-certificacion/)  
+3. [Los cuatro campos de aplicación]\(/certificacon-como-analista-transaccional/los-cuatro-campos-de-aplicacion-del-at/?preview_id=907&preview_nonce=60270322bf&preview=true "Los cuatro campos de especialización ")  
+4\. [Duración del entrenamiento]\(/certificacon-como-analista-transaccional/duracion-y-curriculum-del-entrenamiento-en-at/)  
+5\. [Currículum]\(/certificacon-como-analista-transaccional/duracion-y-curriculum-del-entrenamiento-en-at/)  
+6\. [Relación entrenador – persona en formación]\(/certificacon-como-analista-transaccional/la-relacion-entrenador-entrenado/)  
+7\. [Los exámenes para Analista Transaccional Certificado]\(/certificacon-como-analista-transaccional/examenes-y-requisitos-para-el-examen-de-cta/)  
+8\. [Requisitos para el examen como Analista Transaccional Certificado]\(/certificacon-como-analista-transaccional/examenes-y-requisitos-para-el-examen-de-cta/)  
+9\. [Descripción de los requisitos]\(/certificacon-como-analista-transaccional/descripcion-de-los-requisitos-para-certificarse-en-at/)
