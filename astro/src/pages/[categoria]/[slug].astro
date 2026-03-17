@@ -1,15 +1,22 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { getContent, getPage } from '../../utils/content';
+import { getContent } from '../../utils/content';
 
 export function getStaticPaths() {
-  const categories = ['analisis-transaccional', 'formacion', 'psicoterapia', 'certificacion', 'blog', 'gabinete', 'inicio'];
+  const categories = ['analisis-transaccional', 'formacion', 'psicoterapia', 'certificacion', 'blog', 'gabinete', 'inicio', 'general'];
   
   const paths = [];
+  const seenSlugs = new Set();
   
   categories.forEach(category => {
     const pages = getContent(category);
     pages.forEach(page => {
+      // Skip if no slug, already seen, or contains special URL chars
+      if (!page.slug || seenSlugs.has(page.slug)) return;
+      if (/%/.test(page.slug)) return;
+      if (page.slug.length > 100) return;
+      
+      seenSlugs.add(page.slug);
       paths.push({
         params: { categoria: category, slug: page.slug },
         props: { page, category }
