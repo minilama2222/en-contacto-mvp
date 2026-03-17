@@ -87,11 +87,14 @@ export function getContent(category) {
       });
     }
     
+    // Filtrar frontmatter para no sobrescribir el título limpio
+    const { title: fmTitle, ...restFrontmatter } = frontmatter;
+    
     return {
       rawSlug,
       slug,
-      title: cleanTitle(frontmatter.title),
-      ...frontmatter,
+      title: cleanTitle(frontmatter.title) || slug,
+      ...restFrontmatter,
       body: cleanBody(body)
     };
   });
@@ -149,9 +152,12 @@ export function getPage(category, slug) {
     });
   }
   
+  // Filtrar frontmatter para no sobrescribir el título limpio
+  const { title: fmTitle, ...restFrontmatter } = frontmatter;
+  
   return {
-    title: cleanTitle(frontmatter.title),
-    ...frontmatter,
+    title: cleanTitle(frontmatter.title) || slug,
+    ...restFrontmatter,
     body: cleanBody(body)
   };
 }
