@@ -1,5 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
+import { getContent } from '../utils/content';
+
+const pages = getContent('general');
+const contactarPage = pages.find(p => p.slug.includes('contactar'));
 ---
 
 <Base title="Contacto" description="Contactar con el Gabinete de Análisis Transaccional">
@@ -8,30 +12,20 @@ import Base from '../layouts/Base.astro';
   <section class="section">
     <h2>Gabinete de Análisis Transaccional</h2>
     <p>Centro profesional de Psicología Clínica dedicado desde 1987 a la psicoterapia y la formación.</p>
-    
-    <div class="card">
-      <h3>Información de contacto</h3>
-      <p>Esta información se migrará del sitio original.</p>
-    </div>
   </section>
 
-  <section class="section">
-    <h2>Formulario de contacto</h2>
-    <p>Puedes escribirnos para:</p>
-    <ul>
-      <li>Solicitar información sobre psicoterapia</li>
-      <li>Consultar sobre formación en Análisis Transaccional</li>
-      <li>Enviar opiniones y sugerencias</li>
-    </ul>
-    <p><em>El formulario de contacto se implementará en una versión posterior.</em></p>
-  </section>
+  {contactarPage && (
+    <section class="section">
+      <div set:html={contactarPage.body} />
+    </section>
+  )}
 
   <section class="section">
     <h2>Legal</h2>
     <ul>
-      <li><a href="/politica-de-privacidad">Política de Privacidad</a></li>
-      <li><a href="/politica-de-cookies">Política de Cookies</a></li>
-      <li><a href="/aviso-legal">Aviso Legal</a></li>
+      {pages.filter(p => p.slug.includes('politica') || p.slug.includes('aviso')).map(page => (
+        <li><a href={`/general/${page.slug}`}>{page.title}</a></li>
+      ))}
     </ul>
   </section>
 </Base>

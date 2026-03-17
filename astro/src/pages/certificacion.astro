@@ -1,5 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
+import { getContent } from '../utils/content';
+
+const pages = getContent('certificacion');
 ---
 
 <Base title="Certificación" description="Certificación como Analista Transaccional - ITAA EATA">
@@ -8,32 +11,23 @@ import Base from '../layouts/Base.astro';
   <p>Información sobre el proceso de certificación en Análisis Transaccional bajo las normas de entrenamiento de la Asociación Europea de Análisis Transaccional (EATA) y de la Asociación Internacional de Análisis Transaccional (ITAA).</p>
 
   <section class="section">
-    <h2>Niveles de Certificación</h2>
-    
-    <div class="card">
-      <h3>Analista Transaccional Certificado (CTA)</h3>
-      <p>Certificación de nivel avanzado que requiere formación extensa y supervisión.</p>
+    <h2>Contenido</h2>
+    <div class="grid">
+      {pages.map(page => (
+        <div class="card">
+          <h3><a href={`/certificacion/${page.slug}`}>{page.title}</a></h3>
+          <a href={`/certificacion/${page.slug}`} class="btn">Leer más</a>
+        </div>
+      ))}
     </div>
-
-    <div class="card">
-      <h3>Analista Transaccional Diplomado (TSTA)</h3>
-      <p>Certificación de formador/supervisor que permite entrenar y certificar a otros.</p>
-    </div>
-  </section>
-
-  <section class="section">
-    <h2>Requisitos</h2>
-    <p>Los requisitos específicos incluyen:</p>
-    <ul>
-      <li>Formación mínima en Análisis Transaccional</li>
-      <li>Horas de práctica supervisada</li>
-      <li>Horas de terapia personal</li>
-      <li>Exámenes teóricos y prácticos</li>
-    </ul>
-  </section>
-
-  <section class="section">
-    <h2>Más información</h2>
-    <p>Consulta la página completa sobre certificación para detalles específicos del proceso.</p>
   </section>
 </Base>
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+</style>

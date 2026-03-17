@@ -1,5 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
+import { getContent } from '../utils/content';
+
+const pages = getContent('formacion');
 ---
 
 <Base title="Formación" description="Formación profesional en Análisis Transaccional Integrativo - Cursos y seminarios certificados">
@@ -10,26 +13,12 @@ import Base from '../layouts/Base.astro';
   <section class="section">
     <h2>Programa de Formación</h2>
     
-    <div class="card">
-      <h3>Curso 101 de Análisis Transaccional</h3>
-      <p>El Curso oficial de la ITAA–EATA para presentar los conceptos básicos del Análisis Transaccional mediante exposiciones teóricas y ejercicios de ilustración.</p>
-      <a href="/formacion/curso-101" class="btn">Más información</a>
-    </div>
-
-    <div class="card">
-      <h3>SARAT - Seminarios de Actualización y Reciclaje</h3>
-      <p>Para profundizar y ampliar los conceptos del Análisis Transaccional, estudiar a Berne y otros autores mediante artículos traducidos y originales y la Psicoterapia Integrativa.</p>
-    </div>
-
-    <div class="card">
-      <h3>SIPAT - Seminarios de Supervisión e Integración</h3>
-      <p>Seminario de formación avanzada y continuada estructurado en tres niveles:</p>
-      <ul>
-        <li>Perfeccionamiento de técnicas de AT y Psicoterapia Integrativa</li>
-        <li>Terapia y crecimiento personal y profesional</li>
-        <li>Perfeccionamiento y supervisión de casos y de la terapia</li>
-      </ul>
-    </div>
+    {pages.map(page => (
+      <div class="card">
+        <h3>{page.title}</h3>
+        <a href={`/formacion/${page.slug}`} class="btn">Más información</a>
+      </div>
+    ))}
   </section>
 
   <section class="section">
