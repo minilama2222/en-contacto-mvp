@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { getContent } from '../../utils/content';
+import { marked } from 'marked';
 
 export function getStaticPaths() {
   const categories = ['analisis-transaccional', 'formacion', 'psicoterapia', 'certificacion', 'blog', 'gabinete', 'inicio', 'general'];
@@ -11,7 +12,6 @@ export function getStaticPaths() {
   categories.forEach(category => {
     const pages = getContent(category);
     pages.forEach(page => {
-      // Skip if no slug, already seen, or contains special URL chars
       if (!page.slug || seenSlugs.has(page.slug)) return;
       if (/%/.test(page.slug)) return;
       if (page.slug.length > 100) return;
@@ -29,6 +29,7 @@ export function getStaticPaths() {
 
 const { page, category } = Astro.props;
 const title = page.title || page.slug;
+const htmlContent = marked.parse(page.body || '');
 ---
 
 <Base title={title} description={page.description}>
@@ -38,7 +39,7 @@ const title = page.title || page.slug;
       <h1>{title}</h1>
     </header>
     
-    <div class="page-content" set:html={page.body} />
+    <div class="page-content" set:html={htmlContent} />
   </article>
 </Base>
 
@@ -69,7 +70,12 @@ const title = page.title || page.slug;
   .page-content :global(h3) {
     margin-top: 2rem;
     margin-bottom: 1rem;
+    color: var(--color-primary);
   }
+  
+  .page-content :global(h1) { font-size: 1.8rem; }
+  .page-content :global(h2) { font-size: 1.5rem; }
+  .page-content :global(h3) { font-size: 1.25rem; }
   
   .page-content :global(p) {
     margin: 1rem 0;
@@ -96,6 +102,9 @@ const title = page.title || page.slug;
     margin: 1rem 0;
     font-style: italic;
     color: #666;
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 4px;
   }
   
   .page-content :global(img) {
@@ -107,5 +116,33 @@ const title = page.title || page.slug;
   
   .page-content :global(strong) {
     font-weight: 600;
+    color: #333;
+  }
+  
+  .page-content :global(em) {
+    font-style: italic;
+  }
+  
+  .page-content :global(code) {
+    background: #f4f4f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.9em;
+    font-family: monospace;
+  }
+  
+  .page-content :global(pre) {
+    background: #2d2d2d;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 1rem 0;
+  }
+  
+  .page-content :global(pre code) {
+    background: none;
+    padding: 0;
+    color: #fff;
   }
 </style>
