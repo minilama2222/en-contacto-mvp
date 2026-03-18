@@ -1,74 +1,93 @@
 ---
 import Base from '../layouts/Base.astro';
+import { getContent, getCategories } from '../utils/content';
+
+const categories = getCategories();
+const blogPages = getContent('blog');
+const psicoterapiaPages = getContent('psicoterapia');
+const formacionPages = getContent('formacion');
+const atPages = getContent('analisis-transaccional');
 ---
 
 <Base title="Inicio" description="Gabinete de Análisis Transaccional - Psicología Clínica y Formación">
-  <section class="hero">
-    <h1>Bienvenidos al Gabinete de Análisis Transaccional</h1>
-    <p class="subtitle">Centro profesional de Psicología Clínica dedicado desde 1987 a la psicoterapia individual y en grupo, de pareja y familia.</p>
+  <section class="intro">
+    <h1>En Contacto</h1>
+    <p class="subtitle">Gabinete de Análisis Transaccional desde 1987. Psicoterapia individual, de pareja y familia, y formación profesional certificada.</p>
   </section>
 
   <section class="section">
-    <h2>Nuestros Servicios</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Psicoterapia</h3>
-        <p>Atención psicológica profesional para individuales, parejas y familias. Enfoque integrativo basado en Análisis Transaccional.</p>
-        <a href="/psicoterapia" class="btn">Saber más</a>
-      </div>
-      
-      <div class="card">
-        <h3>Formación Profesional</h3>
-        <p>Formación certificada en Análisis Transaccional según normas de ITAA y EATA. Cursos, seminarios y supervisión.</p>
-        <a href="/formacion" class="btn">Saber más</a>
-      </div>
-      
-      <div class="card">
-        <h3>Análisis Transaccional</h3>
-        <p>Descubre qué es el AT y cómo puede ayudarte a comprenderte mejor y mejorar tus relaciones.</p>
-        <a href="/analisis-transaccional" class="btn">Saber más</a>
-      </div>
-    </div>
+    <h2>Análisis Transaccional</h2>
+    <p>Teoría de la personalidad y las relaciones humanas. Comprende tu manera de pensar, sentir y actuar para crecer y cambiar.</p>
+    <a href="/analisis-transaccional">Explorar →</a>
   </section>
 
   <section class="section">
-    <h2>¿Qué es el Análisis Transaccional?</h2>
-    <p>El Análisis Transaccional es una teoría de la personalidad y de las relaciones humanas basado principalmente en el análisis de los Estados del Yo, de las Transacciones, de los patrones de tratos mutuos, de los Juegos Psicológicos y de los Guiones de vida.</p>
-    <p>Se adhiere a los principios de la filosofía humanista y en la actualidad, se aplica para la psicoterapia, el crecimiento y el cambio personal u organizacional.</p>
-    <a href="/analisis-transaccional" class="btn">Leer más</a>
+    <h2>Psicoterapia</h2>
+    <p>{psicoterapiaPages.length} artículos sobre el proceso terapéutico, reglas de terapia y trabajo personal.</p>
+    <a href="/psicoterapia">Saber más →</a>
   </section>
 
   <section class="section">
-    <h2>Últimos Artículos</h2>
-    <p>Visita nuestro blog para artículos sobre Análisis Transaccional, psicoterapia y desarrollo personal.</p>
-    <a href="/blog" class="btn">Ver blog</a>
+    <h2>Formación</h2>
+    <p>{formacionPages.length} recursos sobre formación profesional en Análisis Transaccional y certificación.</p>
+    <a href="/formacion">Ver formación →</a>
+  </section>
+
+  <section class="section">
+    <h2>Blog</h2>
+    <p>Artículos sobre desarrollo personal, relaciones y growth profesional.</p>
+    <a href="/blog">Leer blog →</a>
   </section>
 </Base>
 
 <style>
-  .hero {
-    text-align: center;
-    padding: 2rem 0;
-    border-bottom: 1px solid #eee;
-    margin-bottom: 2rem;
+  .intro {
+    margin-bottom: var(--space-2xl);
+    padding-bottom: var(--space-2xl);
+    border-bottom: 1px solid var(--color-border);
+  }
+  
+  h1 {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    margin-bottom: var(--space-md);
   }
   
   .subtitle {
+    font-family: var(--font-body);
+    font-size: 1.125rem;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    max-width: 540px;
+  }
+  
+  .section {
+    margin-bottom: var(--space-2xl);
+  }
+  
+  h2 {
+    font-family: var(--font-heading);
     font-size: 1.25rem;
-    color: #666;
-    max-width: 600px;
-    margin: 1rem auto;
+    font-weight: 600;
+    margin-bottom: var(--space-sm);
   }
   
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
-    margin-top: 1.5rem;
+  .section p {
+    font-family: var(--font-body);
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-sm);
   }
   
-  .card h3 {
-    margin-top: 0;
-    color: var(--color-primary);
+  .section a {
+    font-family: var(--font-heading);
+    font-size: 0.875rem;
+    color: var(--color-text);
+    text-decoration: none;
+  }
+  
+  .section a:hover {
+    text-decoration: underline;
   }
 </style>

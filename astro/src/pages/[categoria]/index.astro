@@ -24,95 +24,95 @@ const categoryTitles = {
   'general': 'Otros'
 };
 
+const categoryDescriptions = {
+  'analisis-transaccional': 'Teoría de la personalidad y las relaciones humanas',
+  'psicoterapia': 'Servicios de psicoterapia y crecimiento personal',
+  'formacion': 'Formación profesional y certificación en AT',
+  'blog': 'Artículos sobre desarrollo personal y growth',
+  'contacto': 'Información de contacto y legal',
+  'inicio': 'Página principal',
+  'general': 'Recursos adicionales'
+};
+
 const title = categoryTitles[category] || category;
+const description = categoryDescriptions[category] || '';
 ---
 
-<Base title={title} description={`Contenido sobre ${title}`}>
-  <section class="category-page">
-    <header class="page-header">
+<Base title={title} description={description}>
+  <article class="list-page">
+    <header class="list-header">
       <h1>{title}</h1>
-      <p>{pages.length} página(s) disponible(s)</p>
+      <p class="description">{description}</p>
     </header>
     
-    <div class="pages-list">
+    <ul class="page-list">
       {pages.map(page => (
-        <article class="page-item">
-          <h2>
-            <a href={`/${category}/${page.slug}`}>{page.title || page.slug}</a>
-          </h2>
-          {page.description && <p class="description">{page.description}</p>}
-          <a href={`/${category}/${page.slug}`} class="read-more">Leer más →</a>
-        </article>
+        <li>
+          <a href={`/${category}/${page.slug}`}>
+            <span class="page-title">{page.title || page.slug}</span>
+          </a>
+        </li>
       ))}
-    </div>
+    </ul>
     
     {pages.length === 0 && (
       <p class="empty">No hay contenido en esta sección todavía.</p>
     )}
-  </section>
+  </article>
 </Base>
 
 <style>
-  .category-page {
-    max-width: 800px;
-    margin: 0 auto;
+  .list-page {
+    max-width: var(--width-content);
   }
   
-  .page-header {
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #eee;
+  .list-header {
+    margin-bottom: var(--space-xl);
+    padding-bottom: var(--space-lg);
+    border-bottom: 1px solid var(--color-border);
   }
   
-  .page-header h1 {
-    margin-bottom: 0.5rem;
-  }
-  
-  .page-header p {
-    color: #666;
-    margin: 0;
-  }
-  
-  .pages-list {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-  
-  .page-item {
-    padding: 1.5rem;
-    background: var(--color-white);
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
-  
-  .page-item h2 {
-    margin: 0 0 0.5rem;
-    font-size: 1.25rem;
-  }
-  
-  .page-item h2 a {
-    color: var(--color-primary);
-    text-decoration: none;
-  }
-  
-  .page-item h2 a:hover {
-    text-decoration: underline;
+  h1 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin-bottom: var(--space-sm);
   }
   
   .description {
-    color: #666;
-    margin: 0 0 1rem;
+    font-family: var(--font-body);
+    color: var(--color-text-secondary);
   }
   
-  .read-more {
-    font-size: 0.9rem;
+  .page-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .page-list li {
+    border-bottom: 1px solid var(--color-border);
+  }
+  
+  .page-list a {
+    display: block;
+    padding: var(--space-md) 0;
+    text-decoration: none;
+    color: var(--color-text);
+  }
+  
+  .page-list a:hover {
+    color: var(--color-text-secondary);
+  }
+  
+  .page-title {
+    font-family: var(--font-heading);
+    font-size: 1rem;
     font-weight: 500;
   }
   
   .empty {
-    text-align: center;
-    color: #666;
-    padding: 2rem;
+    color: var(--color-text-secondary);
+    font-style: italic;
   }
 </style>

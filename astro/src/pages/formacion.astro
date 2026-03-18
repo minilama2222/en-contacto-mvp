@@ -5,42 +5,73 @@ import { getContent } from '../utils/content';
 const pages = getContent('formacion');
 ---
 
-<Base title="Formación" description="Formación profesional en Análisis Transaccional Integrativo - Cursos y seminarios certificados">
-  <h1>Formación en Análisis Transaccional Integrativo</h1>
-  
-  <p>La Formación en Análisis Transaccional Integrativo que ofrece el Gabinete proporciona una formación profesional sólida en Análisis Transaccional y Psicoterapia Integrativa con contenidos teóricos, metodológicos y técnicos.</p>
+<Base title="Formación" description="Formación profesional en Análisis Transaccional Integrativo">
+  <article class="section-page">
+    <header class="section-header">
+      <h1>Formación</h1>
+      <p>Formación profesional sólida en Análisis Transaccional y Psicoterapia Integrativa con contenidos teóricos, metodológicos y técnicos.</p>
+    </header>
 
-  <section class="section">
-    <h2>Programa de Formación</h2>
-    
-    {pages.map(page => (
-      <div class="card">
-        <h3>{page.title}</h3>
-        <a href={`/formacion/${page.slug}`} class="btn">Más información</a>
-      </div>
-    ))}
-  </section>
-
-  <section class="section">
-    <h2>Objetivos</h2>
-    <ul>
-      <li>Conocer los fundamentos conceptuales y metodológicos</li>
-      <li>Integrar este enfoque en tu actividad profesional</li>
-      <li>Conseguir créditos para la certificación como Analista Transaccional en Psicoterapia de ITAA y EATA</li>
-      <li>Conseguir la certificación como Psicoterapeuta Integrativo de IIPA</li>
-      <li>Preparar los exámenes de la Asociación Europea de Análisis Transaccional (EATA)</li>
-      <li>El crecimiento personal y profesional</li>
+    <ul class="page-list">
+      {pages.map(page => (
+        <li>
+          <a href={`/formacion/${page.slug}`}>
+            <span class="page-title">{page.title}</span>
+          </a>
+        </li>
+      ))}
     </ul>
-  </section>
-
-  <section class="section">
-    <h2>Certificaciones</h2>
-    <p>La formación permite obtener:</p>
-    <ul>
-      <li>Certificación como Analista Transaccional en Psicoterapia de la ITAA y la EATA</li>
-      <li>Certificación como Psicoterapeuta Integrativo de la IIPA</li>
-      <li>Acreditación como Terapeuta Transaccional de la A.T.A.</li>
-    </ul>
-    <a href="/certificacion" class="btn">Más sobre certificación</a>
-  </section>
+  </article>
 </Base>
+
+<style>
+  .section-page {
+    max-width: var(--width-content);
+  }
+  
+  .section-header {
+    margin-bottom: var(--space-xl);
+    padding-bottom: var(--space-lg);
+    border-bottom: 1px solid var(--color-border);
+  }
+  
+  h1 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin-bottom: var(--space-sm);
+  }
+  
+  .section-header p {
+    font-family: var(--font-body);
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+  }
+  
+  .page-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .page-list li {
+    border-bottom: 1px solid var(--color-border);
+  }
+  
+  .page-list a {
+    display: block;
+    padding: var(--space-md) 0;
+    text-decoration: none;
+    color: var(--color-text);
+  }
+  
+  .page-list a:hover {
+    color: var(--color-text-secondary);
+  }
+  
+  .page-title {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    font-weight: 500;
+  }
+</style>

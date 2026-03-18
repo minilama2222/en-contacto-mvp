@@ -2,30 +2,87 @@
 import Base from '../layouts/Base.astro';
 import { getContent } from '../utils/content';
 
-const pages = getContent('general');
+const pages = getContent('contacto');
 const contactarPage = pages.find(p => p.slug.includes('contactar'));
 ---
 
 <Base title="Contacto" description="Contactar con el Gabinete de Análisis Transaccional">
-  <h1>Contacto</h1>
-  
-  <section class="section">
-    <h2>Gabinete de Análisis Transaccional</h2>
-    <p>Centro profesional de Psicología Clínica dedicado desde 1987 a la psicoterapia y la formación.</p>
-  </section>
+  <article class="contact-page">
+    <header class="contact-header">
+      <h1>Contacto</h1>
+    </header>
 
-  {contactarPage && (
-    <section class="section">
-      <div set:html={contactarPage.body} />
+    {contactarPage && (
+      <div class="prose" set:html="marked.parse(contactarPage.body || '')" />
+    )}
+
+    <section class="links-section">
+      <h2>Información legal</h2>
+      <ul>
+        {pages.filter(p => p.slug.includes('aviso') || p.slug.includes('politica')).map(page => (
+          <li>
+            <a href={`/blog/${page.slug}`}>{page.title}</a>
+          </li>
+        ))}
+      </ul>
     </section>
-  )}
-
-  <section class="section">
-    <h2>Legal</h2>
-    <ul>
-      {pages.filter(p => p.slug.includes('politica') || p.slug.includes('aviso')).map(page => (
-        <li><a href={`/general/${page.slug}`}>{page.title}</a></li>
-      ))}
-    </ul>
-  </section>
+  </article>
 </Base>
+
+<style>
+  .contact-page {
+    max-width: var(--width-content);
+  }
+  
+  .contact-header {
+    margin-bottom: var(--space-xl);
+    padding-bottom: var(--space-lg);
+    border-bottom: 1px solid var(--color-border);
+  }
+  
+  h1 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+  
+  .prose {
+    font-family: var(--font-body);
+    margin-bottom: var(--space-xl);
+  }
+  
+  .prose :global(p) {
+    margin-bottom: var(--space-md);
+    line-height: 1.7;
+  }
+  
+  .links-section {
+    margin-top: var(--space-xl);
+  }
+  
+  h2 {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: var(--space-md);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: var(--space-sm);
+  }
+  
+  a {
+    color: var(--color-text);
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    color: var(--color-text-secondary);
+  }
+</style>
