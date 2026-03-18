@@ -28,7 +28,11 @@ body {
 .prose h2 { font-size: 1.5rem; font-weight: 600; margin: 1.5rem 0 1rem; }
 .prose h3 { font-size: 1.25rem; font-weight: 600; margin: 1rem 0 0.75rem; }
 .prose p { margin: 1rem 0; line-height: 1.7; }
-.prose ul, .prose ol { margin: 1rem 0; padding-left: 1.5rem; }
-.prose li { margin: 0.5rem 0; }
+.prose ul { margin: 1rem 0; padding-left: 1.5rem; list-style-type: disc; }
+.prose ul li { margin: 0.5rem 0; list-style-position: outside; }
+.prose ul li::marker { color: var(--color-primary); }
+.prose ol { margin: 1rem 0; padding-left: 1.5rem; list-style-type: decimal; }
+.prose ol li { margin: 0.5rem 0; list-style-position: outside; }
+.prose ol li::marker { color: var(--color-muted-foreground); }
 .prose a { color: var(--color-primary); text-decoration: underline; }
 .prose blockquote { border-left: 4px solid var(--color-border); padding-left: 1rem; margin: 1rem 0; font-style: italic; color: var(--color-muted-foreground); }
