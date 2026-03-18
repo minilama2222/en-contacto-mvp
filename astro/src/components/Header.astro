@@ -11,11 +11,11 @@ const navItems = [
 const currentPath = Astro.url.pathname;
 ---
 
-<header class="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+<header class="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-md">
   <div class="container mx-auto px-4 flex h-16 items-center justify-between">
-    <a href="/" class="text-lg font-semibold">En Contacto</a>
+    <a href="/" class="text-xl font-semibold text-primary">En Contacto</a>
 
-    <nav class="hidden md:flex items-center gap-6 text-sm">
+    <nav class="hidden md:flex items-center gap-8 text-sm">
       {navItems.map((item) => {
         const isActive = item.href === '/' 
           ? currentPath === '/' 
@@ -24,11 +24,16 @@ const currentPath = Astro.url.pathname;
           <a
             href={item.href}
             class:list={[
-              'transition-colors',
-              isActive ? 'text-foreground font-medium' : 'text-foreground/60 hover:text-foreground'
+              'transition-all duration-200 relative py-1',
+              isActive 
+                ? 'text-primary font-semibold' 
+                : 'text-muted-foreground hover:text-foreground'
             ]}
           >
             {item.label}
+            {isActive && (
+              <span class="absolute bottom-0 left-0 w-full h-0.5 bg-primary rounded-full"></span>
+            )}
           </a>
         );
       })}
@@ -36,7 +41,7 @@ const currentPath = Astro.url.pathname;
 
     <button
       id="mobile-menu-button"
-      class="md:hidden p-2"
+      class="md:hidden p-2 text-foreground"
       aria-label="Toggle menu"
     >
       <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -45,8 +50,8 @@ const currentPath = Astro.url.pathname;
     </button>
   </div>
 
-  <div id="mobile-menu" class="hidden md:hidden border-t">
-    <div class="container mx-auto px-4 py-4 space-y-2">
+  <div id="mobile-menu" class="hidden md:hidden border-t bg-white">
+    <div class="container mx-auto px-4 py-4 space-y-1">
       {navItems.map((item) => {
         const isActive = item.href === '/' 
           ? currentPath === '/' 
@@ -55,8 +60,10 @@ const currentPath = Astro.url.pathname;
           <a
             href={item.href}
             class:list={[
-              'block px-3 py-2 rounded-md text-base font-medium',
-              isActive ? 'bg-accent' : 'hover:bg-accent'
+              'block px-4 py-3 rounded-lg text-base font-medium transition-colors',
+              isActive 
+                ? 'bg-primary/10 text-primary' 
+                : 'text-foreground hover:bg-muted'
             ]}
           >
             {item.label}

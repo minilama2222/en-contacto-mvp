@@ -3,36 +3,96 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-background: oklch(100% 0 0);
-  --color-foreground: oklch(15% 0 0);
+  /* Warm, calming green palette for psychology practice */
+  --color-background: oklch(98% 0.01 145);
+  --color-foreground: oklch(25% 0.02 145);
   --color-card: oklch(100% 0 0);
-  --color-card-foreground: oklch(15% 0 0);
-  --color-primary: oklch(35% 0.05 160);
+  --color-card-foreground: oklch(25% 0.02 145);
+  --color-primary: oklch(45% 0.08 155);
   --color-primary-foreground: oklch(98% 0 0);
-  --color-secondary: oklch(95% 0 0);
-  --color-secondary-foreground: oklch(15% 0 0);
-  --color-muted: oklch(95% 0 0);
-  --color-muted-foreground: oklch(40% 0 0);
-  --color-accent: oklch(95% 0 0);
-  --color-accent-foreground: oklch(15% 0 0);
-  --color-border: oklch(90% 0 0);
-  --color-ring: oklch(35% 0.05 160);
+  --color-secondary: oklch(92% 0.02 155);
+  --color-secondary-foreground: oklch(35% 0.03 155);
+  --color-muted: oklch(94% 0.01 155);
+  --color-muted-foreground: oklch(45% 0.02 155);
+  --color-accent: oklch(88% 0.04 155);
+  --color-accent-foreground: oklch(30% 0.03 155);
+  --color-border: oklch(88% 0.02 155);
+  --color-ring: oklch(45% 0.08 155);
   --radius: 0.5rem;
 }
 
 body {
   font-family: system-ui, -apple-system, sans-serif;
+  background: linear-gradient(180deg, var(--color-background) 0%, oklch(96% 0.01 145) 100%);
+  min-height: 100vh;
 }
 
-.prose h1 { font-size: 2rem; font-weight: 700; margin: 2rem 0 1rem; }
-.prose h2 { font-size: 1.5rem; font-weight: 600; margin: 1.5rem 0 1rem; }
-.prose h3 { font-size: 1.25rem; font-weight: 600; margin: 1rem 0 0.75rem; }
+/* Header with subtle gradient */
+header {
+  background: linear-gradient(180deg, oklch(100% 0 0) 0%, oklch(98% 0.01 145) 100%);
+}
+
+/* Cards with subtle shadow and hover effect */
+a[href*="/"]:not([href="/"]):not([href^="/analisis"]):not([href^="/psicoterapia"]):not([href^="/formacion"]):not([href^="/blog"]):not([href^="/contacto"]) {
+  transition: all 0.2s ease;
+}
+
+/* Subtle card styling for links */
+main a:not([class]) {
+  transition: color 0.15s ease;
+}
+
+/* Enhanced prose styling */
+.prose h1 { 
+  font-size: 2rem; 
+  font-weight: 700; 
+  margin: 2rem 0 1rem;
+  color: oklch(30% 0.03 155);
+}
+.prose h2 { 
+  font-size: 1.5rem; 
+  font-weight: 600; 
+  margin: 1.5rem 0 1rem;
+  color: oklch(35% 0.03 155);
+  border-bottom: 1px solid oklch(88% 0.02 155);
+  padding-bottom: 0.5rem;
+}
+.prose h3 { 
+  font-size: 1.25rem; 
+  font-weight: 600; 
+  margin: 1rem 0 0.75rem;
+  color: oklch(40% 0.02 155);
+}
 .prose p { margin: 1rem 0; line-height: 1.7; }
 .prose ul { margin: 1rem 0; padding-left: 1.5rem; list-style-type: disc; }
 .prose ul li { margin: 0.5rem 0; list-style-position: outside; }
-.prose ul li::marker { color: var(--color-primary); }
+.prose ul li::marker { color: oklch(50% 0.08 155); }
 .prose ol { margin: 1rem 0; padding-left: 1.5rem; list-style-type: decimal; }
 .prose ol li { margin: 0.5rem 0; list-style-position: outside; }
-.prose ol li::marker { color: var(--color-muted-foreground); }
-.prose a { color: var(--color-primary); text-decoration: underline; }
-.prose blockquote { border-left: 4px solid var(--color-border); padding-left: 1rem; margin: 1rem 0; font-style: italic; color: var(--color-muted-foreground); }
+.prose ol li::marker { color: oklch(45% 0.02 155); font-weight: 500; }
+.prose a { color: oklch(45% 0.08 155); text-decoration: underline; text-underline-offset: 2px; }
+.prose a:hover { color: oklch(35% 0.1 155); }
+.prose blockquote { 
+  border-left: 3px solid oklch(55% 0.08 155); 
+  padding-left: 1rem; 
+  margin: 1.5rem 0; 
+  font-style: italic; 
+  color: oklch(45% 0.02 155); 
+  background: oklch(96% 0.01 155);
+  padding: 1rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+.prose strong { color: oklch(30% 0.03 155); }
+
+/* Subtle accent for list items */
+.prose li:hover {
+  background: oklch(96% 0.01 155);
+  margin-left: -0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+/* Footer with subtle top border */
+footer {
+  background: oklch(96% 0.01 145);
+}
