@@ -1,0 +1,77 @@
+---
+const navItems = [
+  { href: '/', label: 'Inicio' },
+  { href: '/analisis-transaccional', label: 'Análisis Transaccional' },
+  { href: '/psicoterapia', label: 'Psicoterapia' },
+  { href: '/formacion', label: 'Formación' },
+  { href: '/blog', label: 'Blog' },
+  { href: '/contacto', label: 'Contacto' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+  <div class="container mx-auto px-4 flex h-16 items-center justify-between">
+    <a href="/" class="text-lg font-semibold">En Contacto</a>
+
+    <nav class="hidden md:flex items-center gap-6 text-sm">
+      {navItems.map((item) => {
+        const isActive = item.href === '/' 
+          ? currentPath === '/' 
+          : currentPath.startsWith(item.href);
+        return (
+          <a
+            href={item.href}
+            class:list={[
+              'transition-colors',
+              isActive ? 'text-foreground font-medium' : 'text-foreground/60 hover:text-foreground'
+            ]}
+          >
+            {item.label}
+          </a>
+        );
+      })}
+    </nav>
+
+    <button
+      id="mobile-menu-button"
+      class="md:hidden p-2"
+      aria-label="Toggle menu"
+    >
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+  </div>
+
+  <div id="mobile-menu" class="hidden md:hidden border-t">
+    <div class="container mx-auto px-4 py-4 space-y-2">
+      {navItems.map((item) => {
+        const isActive = item.href === '/' 
+          ? currentPath === '/' 
+          : currentPath.startsWith(item.href);
+        return (
+          <a
+            href={item.href}
+            class:list={[
+              'block px-3 py-2 rounded-md text-base font-medium',
+              isActive ? 'bg-accent' : 'hover:bg-accent'
+            ]}
+          >
+            {item.label}
+          </a>
+        );
+      })}
+    </div>
+  </div>
+</header>
+
+<script>
+  const menuButton = document.getElementById('mobile-menu-button');
+  const mobileMenu = document.getElementById('mobile-menu');
+  
+  menuButton?.addEventListener('click', () => {
+    mobileMenu?.classList.toggle('hidden');
+  });
+</script>

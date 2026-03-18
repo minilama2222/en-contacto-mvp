@@ -1,68 +1,16 @@
 ---
-import Nav from "../components/Nav.astro";
-import Footer from "../components/Footer.astro";
-import "../styles/global.css";
-
-interface Props {
-  title: string;
-  description?: string;
-}
-
-const {
-  title,
-  description = "Gabinete de Análisis Transaccional - Psicología Clínica y Formación Profesional",
-} = Astro.props;
-
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+import "@/styles/globals.css";
 ---
 
-<!doctype html>
 <html lang="es">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title} | En Contacto</title>
-    <meta name="description" content={description} />
-    <link rel="canonical" href={canonicalURL.href} />
-
-    <!-- Open Graph -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content={`${title} | En Contacto`} />
-    <meta property="og:description" content={description} />
-    <meta property="og:url" content={canonicalURL.href} />
-    <meta property="og:site_name" content="En Contacto" />
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
-      rel="stylesheet"
-    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{Astro.props.title} | En Contacto</title>
+    <meta name="description" content={Astro.props.description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
-  <body>
-    <div class="page">
-      <Nav />
-      <main>
-        <slot />
-      </main>
-      <Footer />
-    </div>
+  <body class="min-h-screen bg-background text-foreground">
+    <slot />
   </body>
 </html>
-
-<style>
-  .page {
-    max-width: var(--width-page);
-    margin: 0 auto;
-    padding: 0 var(--space-lg);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-
-  main {
-    flex: 1;
-    padding-bottom: var(--space-2xl);
-  }
-</style>

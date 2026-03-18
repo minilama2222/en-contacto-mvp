@@ -1,93 +1,41 @@
 ---
-import Base from '../layouts/Base.astro';
-import { getContent, getCategories } from '../utils/content';
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getContent } from "@/utils/content";
 
-const categories = getCategories();
 const blogPages = getContent('blog');
 const psicoterapiaPages = getContent('psicoterapia');
 const formacionPages = getContent('formacion');
-const atPages = getContent('analisis-transaccional');
 ---
 
-<Base title="Inicio" description="Gabinete de Análisis Transaccional - Psicología Clínica y Formación">
-  <section class="intro">
-    <h1>En Contacto</h1>
-    <p class="subtitle">Gabinete de Análisis Transaccional desde 1987. Psicoterapia individual, de pareja y familia, y formación profesional certificada.</p>
-  </section>
+<BaseLayout title="Inicio" description="Gabinete de Análisis Transaccional - Psicología Clínica y Formación">
+  <div class="container mx-auto px-4 py-16 max-w-4xl">
+    <header class="mb-16 text-center">
+      <h1 class="text-4xl font-bold mb-4">En Contacto</h1>
+      <p class="text-xl text-muted-foreground max-w-2xl mx-auto">
+        Gabinete de Análisis Transaccional desde 1987. Psicoterapia individual, de pareja y familia, y formación profesional certificada.
+      </p>
+    </header>
 
-  <section class="section">
-    <h2>Análisis Transaccional</h2>
-    <p>Teoría de la personalidad y las relaciones humanas. Comprende tu manera de pensar, sentir y actuar para crecer y cambiar.</p>
-    <a href="/analisis-transaccional">Explorar →</a>
-  </section>
+    <div class="grid md:grid-cols-2 gap-8">
+      <a href="/analisis-transaccional" class="block p-6 rounded-lg border hover:bg-accent transition-colors">
+        <h2 class="text-xl font-semibold mb-2">Análisis Transaccional</h2>
+        <p class="text-muted-foreground">Teoría de la personalidad y las relaciones humanas. Comprende tu manera de pensar, sentir y actuar.</p>
+      </a>
 
-  <section class="section">
-    <h2>Psicoterapia</h2>
-    <p>{psicoterapiaPages.length} artículos sobre el proceso terapéutico, reglas de terapia y trabajo personal.</p>
-    <a href="/psicoterapia">Saber más →</a>
-  </section>
+      <a href="/psicoterapia" class="block p-6 rounded-lg border hover:bg-accent transition-colors">
+        <h2 class="text-xl font-semibold mb-2">Psicoterapia</h2>
+        <p class="text-muted-foreground">{psicoterapiaPages.length} artículos sobre el proceso terapéutico y crecimiento personal.</p>
+      </a>
 
-  <section class="section">
-    <h2>Formación</h2>
-    <p>{formacionPages.length} recursos sobre formación profesional en Análisis Transaccional y certificación.</p>
-    <a href="/formacion">Ver formación →</a>
-  </section>
+      <a href="/formacion" class="block p-6 rounded-lg border hover:bg-accent transition-colors">
+        <h2 class="text-xl font-semibold mb-2">Formación</h2>
+        <p class="text-muted-foreground">{formacionPages.length} recursos sobre formación profesional y certificación.</p>
+      </a>
 
-  <section class="section">
-    <h2>Blog</h2>
-    <p>Artículos sobre desarrollo personal, relaciones y growth profesional.</p>
-    <a href="/blog">Leer blog →</a>
-  </section>
-</Base>
-
-<style>
-  .intro {
-    margin-bottom: var(--space-2xl);
-    padding-bottom: var(--space-2xl);
-    border-bottom: 1px solid var(--color-border);
-  }
-  
-  h1 {
-    font-family: var(--font-heading);
-    font-size: 2.5rem;
-    font-weight: 700;
-    letter-spacing: -0.03em;
-    margin-bottom: var(--space-md);
-  }
-  
-  .subtitle {
-    font-family: var(--font-body);
-    font-size: 1.125rem;
-    color: var(--color-text-secondary);
-    line-height: 1.6;
-    max-width: 540px;
-  }
-  
-  .section {
-    margin-bottom: var(--space-2xl);
-  }
-  
-  h2 {
-    font-family: var(--font-heading);
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin-bottom: var(--space-sm);
-  }
-  
-  .section p {
-    font-family: var(--font-body);
-    color: var(--color-text-secondary);
-    margin-bottom: var(--space-sm);
-  }
-  
-  .section a {
-    font-family: var(--font-heading);
-    font-size: 0.875rem;
-    color: var(--color-text);
-    text-decoration: none;
-  }
-  
-  .section a:hover {
-    text-decoration: underline;
-  }
-</style>
+      <a href="/blog" class="block p-6 rounded-lg border hover:bg-accent transition-colors">
+        <h2 class="text-xl font-semibold mb-2">Blog</h2>
+        <p class="text-muted-foreground">Artículos sobre desarrollo personal, relaciones y growth profesional.</p>
+      </a>
+    </div>
+  </div>
+</BaseLayout>

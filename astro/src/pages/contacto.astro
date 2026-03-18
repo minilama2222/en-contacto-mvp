@@ -1,88 +1,26 @@
 ---
-import Base from '../layouts/Base.astro';
-import { getContent } from '../utils/content';
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getContent } from "@/utils/content";
 
 const pages = getContent('contacto');
 const contactarPage = pages.find(p => p.slug.includes('contactar'));
 ---
 
-<Base title="Contacto" description="Contactar con el Gabinete de Análisis Transaccional">
-  <article class="contact-page">
-    <header class="contact-header">
-      <h1>Contacto</h1>
-    </header>
-
+<BaseLayout title="Contacto" description="Contactar con el Gabinete de Análisis Transaccional">
+  <div class="container mx-auto px-4 py-12 max-w-4xl">
+    <h1 class="text-3xl font-bold mb-4">Contacto</h1>
+    
     {contactarPage && (
-      <div class="prose" set:html="marked.parse(contactarPage.body || '')" />
+      <div class="prose mb-8" set:html="contactarPage.body" />
     )}
 
-    <section class="links-section">
-      <h2>Información legal</h2>
-      <ul>
-        {pages.filter(p => p.slug.includes('aviso') || p.slug.includes('politica')).map(page => (
-          <li>
-            <a href={`/blog/${page.slug}`}>{page.title}</a>
-          </li>
-        ))}
-      </ul>
-    </section>
-  </article>
-</Base>
-
-<style>
-  .contact-page {
-    max-width: var(--width-content);
-  }
-  
-  .contact-header {
-    margin-bottom: var(--space-xl);
-    padding-bottom: var(--space-lg);
-    border-bottom: 1px solid var(--color-border);
-  }
-  
-  h1 {
-    font-family: var(--font-heading);
-    font-size: 2rem;
-    font-weight: 600;
-    letter-spacing: -0.02em;
-  }
-  
-  .prose {
-    font-family: var(--font-body);
-    margin-bottom: var(--space-xl);
-  }
-  
-  .prose :global(p) {
-    margin-bottom: var(--space-md);
-    line-height: 1.7;
-  }
-  
-  .links-section {
-    margin-top: var(--space-xl);
-  }
-  
-  h2 {
-    font-family: var(--font-heading);
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin-bottom: var(--space-md);
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  li {
-    margin-bottom: var(--space-sm);
-  }
-  
-  a {
-    color: var(--color-text);
-    text-decoration: underline;
-  }
-  
-  a:hover {
-    color: var(--color-text-secondary);
-  }
-</style>
+    <h2 class="text-xl font-semibold mb-4">Información legal</h2>
+    <ul class="space-y-2">
+      {pages.filter(p => p.slug.includes('aviso') || p.slug.includes('politica')).map(page => (
+        <li>
+          <a href={`/contacto/${page.slug}`} class="text-primary hover:underline">{page.title}</a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>
