@@ -86,9 +86,18 @@ const currentPath = Astro.url.pathname;
   const iconClose = document.getElementById('menu-icon-close');
   
   menuButton?.addEventListener('click', () => {
-    const isOpen = !mobileMenu?.classList.contains('hidden');
-    mobileMenu?.classList.toggle('hidden');
-    iconOpen?.classList.toggle('hidden', isOpen);
-    iconClose?.classList.toggle('hidden', !isOpen);
+    const isClosed = mobileMenu?.classList.contains('hidden');
+    
+    if (isClosed) {
+      // Abrir: mostrar X, ocultar hamburguesa
+      mobileMenu?.classList.remove('hidden');
+      iconOpen?.classList.add('hidden');
+      iconClose?.classList.remove('hidden');
+    } else {
+      // Cerrar: mostrar hamburguesa, ocultar X
+      mobileMenu?.classList.add('hidden');
+      iconOpen?.classList.remove('hidden');
+      iconClose?.classList.add('hidden');
+    }
   });
 </script>
