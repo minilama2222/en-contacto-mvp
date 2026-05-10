@@ -1,26 +1,34 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import { getContent } from "@/utils/content";
-
-const pages = getContent('contacto');
-const contactarPage = pages.find(p => p.slug.includes('contactar'));
 ---
 
 <BaseLayout title="Contacto" description="Contactar con el Gabinete de Análisis Transaccional">
-  <div class="container mx-auto px-4 py-12 max-w-4xl">
-    <h1 class="text-3xl font-bold mb-4">Contacto</h1>
+  <div class="container mx-auto px-4 py-12 max-w-3xl">
+    <h1 class="text-4xl font-bold mb-8">Contacto</h1>
     
-    {contactarPage && (
-      <div class="prose mb-8" set:html="contactarPage.body" />
-    )}
-
-    <h2 class="text-xl font-semibold mb-4">Información legal</h2>
-    <ul class="space-y-2">
-      {pages.filter(p => p.slug.includes('aviso') || p.slug.includes('politica')).map(page => (
-        <li>
-          <a href={`/contacto/${page.slug}`} class="text-primary hover:underline">{page.title}</a>
-        </li>
-      ))}
-    </ul>
+    <p class="text-lg mb-8">Para estar EN CONTACTO puedes utilizar las siguientes referencias de contacto:</p>
+    
+    <div class="space-y-6">
+      <div class="flex items-start gap-4">
+        <span class="text-muted-foreground font-medium w-32">Correo electrónico:</span>
+        <a href="mailto:jcuadrap@gmail.com" class="text-primary hover:underline">jcuadrap@gmail.com</a>
+      </div>
+      
+      <div class="flex items-start gap-4">
+        <span class="text-muted-foreground font-medium w-32">WhatsApp:</span>
+        <a href="https://wa.me/34600290544" class="text-primary hover:underline">00 34 600 290 544</a>
+      </div>
+      
+      <div class="flex items-start gap-4">
+        <span class="text-muted-foreground font-medium w-32">Correo postal:</span>
+        <address class="not-italic">
+          Gabinete de Análisis Transaccional<br/>
+          Jesús Cuadra Pérez<br/>
+          Moncasi, 26, 4ºD<br/>
+          50006 Zaragoza<br/>
+          ESPAÑA
+        </address>
+      </div>
+    </div>
   </div>
 </BaseLayout>
