@@ -4,7 +4,6 @@ import { getContent } from "@/utils/content";
 
 const inicioPages = getContent('inicio');
 const inicio = inicioPages.find(p => p.slug === 'inicio');
-const blogPages = getContent('blog');
 const psicoterapiaPages = getContent('psicoterapia');
 const formacionPages = getContent('formacion');
 ---
@@ -35,10 +34,6 @@ const formacionPages = getContent('formacion');
           <p class="text-muted-foreground">{formacionPages.length} recursos sobre formación y certificación.</p>
         </a>
 
-        <a href="/blog" class="block p-6 rounded-lg border hover:bg-accent transition-colors">
-          <h2 class="text-xl font-semibold mb-2">Blog</h2>
-          <p class="text-muted-foreground">Artículos sobre desarrollo personal y growth.</p>
-        </a>
       </div>
     </div>
   </section>
