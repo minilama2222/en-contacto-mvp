@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import { getContent } from '../../utils/content';
 
 export function getStaticPaths() {
-  const categories = ['analisis-transaccional', 'psicoterapia', 'formacion', 'blog', 'contacto', 'inicio', 'general'];
+  const categories = ['analisis-transaccional', 'psicoterapia', 'formacion', 'contacto', 'inicio', 'general'];
   
   return categories.map(category => ({
     params: { categoria: category },
