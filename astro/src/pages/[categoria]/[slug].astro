@@ -29,7 +29,12 @@ export function getStaticPaths() {
 
 const { page, category } = Astro.props;
 const title = page.title || page.slug;
-const htmlContent = marked.parse(page.body || '');
+
+// Preprocess content to fix image paths
+let processedBody = page.body || '';
+processedBody = processedBody.replace(/!\[([^\]]*)\]\(wp-content\/uploads\//g, '![$1](https://www.en-contacto.net/wp-content/uploads/');
+
+const htmlContent = marked.parse(processedBody);
 ---
 
 <BaseLayout title={title} description={page.description}>
